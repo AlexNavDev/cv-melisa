@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --font-brassiere: "Brassiere_Seethru", sans-serif;
+    --font-eras_itc: "Eras_Itc", sans-serif;
+}
+
+@font-face {
+    font-family: "Brassiere_Seethru";
+    src:
+        url("./assets/fonts/Brassiere_Seethru/BRASSST_.woff") format("woff"),
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Eras_Itc";
+    src: url("./assets/fonts/Eras_Itc/eras-itc-bold.ttf");
+}
