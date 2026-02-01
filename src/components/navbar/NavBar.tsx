@@ -10,20 +10,30 @@ import ICONCONTACTO from "@assets/icon-svg-nav/Icon-Contacto.svg";
 
 const Navbar = () => {
   const tabs = [
-    { to: "/", url: ICONSOBREMI },
-    { to: "/habilidades_tecnicas", url: ICONHABILIDADESTEC },
-    { to: "/cursos", url: ICONCURSOS },
-    { to: "/trabajos", url: ICONTRABAJOS },
-    { to: "/habilidades_blandas", url: ICONHABILIDADESBLA },
-    { to: "/certificados", url: ICONCERTIFICADOS },
-    { to: "/contacto", url: ICONCONTACTO },
+    { id: 1, name: "about-me", to: "/", url: ICONSOBREMI },
+    {
+      id: 2,
+      name: "skills-tec",
+      to: "/habilidades_tecnicas",
+      url: ICONHABILIDADESTEC,
+    },
+    { id: 3, name: "course", to: "/cursos", url: ICONCURSOS },
+    { id: 4, name: "work", to: "/trabajos", url: ICONTRABAJOS },
+    {
+      id: 5,
+      name: "skills-soft",
+      to: "/habilidades_blandas",
+      url: ICONHABILIDADESBLA,
+    },
+    { id: 6, name: "certificate", to: "/certificados", url: ICONCERTIFICADOS },
+    { id: 7, name: "contact", to: "/contacto", url: ICONCONTACTO },
   ];
   return (
-    <header className="">
+    <header>
       <nav>
         <ul className="flex  border border-t-0 border-r-0 border-l-0 border-text-orange">
           {tabs.map((tab) => (
-            <li key={tab.to} className="relative w-16 h-13">
+            <li key={`icon-${tab.id}`} className="relative w-16 h-13">
               <NavLink to={tab.to}>
                 {({ isActive }) => (
                   <>
@@ -39,7 +49,11 @@ const Navbar = () => {
                          [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)]
                        `}
                     >
-                      <img src={tab.url} alt="" className="w-8" />
+                      <img
+                        src={tab.url}
+                        alt={`icon-${tab.name}`}
+                        className="w-8"
+                      />
                     </figure>
                   </>
                 )}
