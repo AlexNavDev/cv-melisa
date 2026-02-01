@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 @theme {
+    --color-primary: #1a0e60;
+    --color-secondary: #481387;
+    --color-active: #14003c;
+    --color-inactive: #6633ca;
+    --color-text-orange: #f2802e;
+    --color-text-pink: #ce2c75;
+    --color-text-gray: #e1e1e5;
     --font-brassiere: "Brassiere_Seethru", sans-serif;
     --font-eras_itc: "Eras_Itc", sans-serif;
 }
@@ -13,7 +20,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Eras_Itc";
     src: url("./assets/fonts/Eras_Itc/eras-itc-bold.ttf");
+}
+
+body {
+    background: linear-gradient(
+        180deg,
+        var(--color-primary),
+        var(--color-secondary)
+    );
 }
