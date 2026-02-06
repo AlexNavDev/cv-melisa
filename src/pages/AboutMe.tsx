@@ -19,7 +19,7 @@ const AboutMe = () => {
         </div>
         <div className="w-80 h-32  text-text-gray relative">
           <img src={POBLUR} alt="" className="absolute left-0" />
-          <p className="p-4">
+          <p className="p-4 font-roboto font-medium">
             Empatizar y comprender la demanda del usuario como punto de partida
             para idear y diseñar elementos que satisfaga su necesidad.
           </p>
@@ -62,7 +62,7 @@ const AboutMe = () => {
           <p>Web</p>
         </div>
         <div className="w-80 h-28 text-text-gray relative">
-          <p className="px-4">
+          <p className="px-4 font-roboto font-medium">
             Transmutar un diseño prototipado en un sitio web, integrado
             visibilidad, alcance, aspecto, contenido y funcionalidad para que el
             usuario interactúe.
