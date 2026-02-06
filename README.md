@@ -1,73 +1,81 @@
-# React + TypeScript + Vite
+# 📄 CV Melisa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web de **Currículum Vitae interactivo** construida con **React, TypeScript, Vite y Tailwind CSS**.  
+Este proyecto funciona como un **CV / portafolio personal**, mostrando información profesional de forma clara, moderna y responsiva.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Descripción
 
-## React Compiler
+**CV Melisa** es una Single Page Application (SPA) diseñada para presentar información profesional como:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Información personal
+- Experiencia laboral
+- Habilidades técnicas
+- Proyectos destacados
+- Enlaces de contacto y redes
 
-## Expanding the ESLint configuration
+El objetivo del proyecto es servir como **currículum digital** y como **portafolio frontend**, utilizando tecnologías modernas del ecosistema React.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧩 Tecnologías utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- ⚛️ **React 19**
+- 🟦 **TypeScript**
+- ⚡ **Vite**
+- 🎨 **Tailwind CSS**
+- 🛠️ **ESLint**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 📋 Requisitos
+
+- **Node.js 20 LTS** (recomendado)
+- Gestor de paquetes:
+  - **pnpm** (recomendado)
+  - **npm** (compatible)
+
+> El proyecto puede ejecutarse tanto con **pnpm** como con **npm**.  
+> Se recomienda pnpm para mantener una resolución de dependencias más consistente.
+
+---
+
+## 🚀 Instalación y uso
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/AlexNavDev/cv-melisa.git
+cd cv-melisa
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 2️⃣ Instalar dependencias
+- Opción A — Usando pnpm (recomendado)
+  
+```bash
+pnpm install
 ```
+
+- Opción B — Usando npm
+
+```bash
+npm install
+```
+
+### 3️⃣ Iniciar el servidor de desarrollo
+- Con pnpm
+```bash
+pnpm run dev
+```
+
+- Con npm
+```bash
+npm run dev
+```
+
+## La aplicación estará disponible en:
+```bash
+http://localhost:5173
+```
+
