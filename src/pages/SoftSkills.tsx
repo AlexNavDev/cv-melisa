@@ -1,7 +1,7 @@
 const SoftSkills = () => {
   return (
     <>
-      <h1>Hablidades Blandas</h1>
+      <h2>Habilidades Blandas</h2>
     </>
   );
 };
