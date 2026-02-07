@@ -16,3 +16,4 @@ const TechnicalSkills = () => {
   );
 };
 export default TechnicalSkills;
+
