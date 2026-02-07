@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../layout/Layout";
-import AboutMe from "../pages/AboutMe";
-import { TechnicalSkills } from "@/pages";
+import { AboutMe, TechnicalSkills } from "@/pages";
 import Courses from "../pages/Courses";
 import Works from "../pages/Works";
 import SoftSkills from "../pages/SoftSkills";
