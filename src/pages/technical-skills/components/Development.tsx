@@ -1,7 +1,6 @@
 import { iconsDev, iconsDev2 } from "../data/icons";
 
 const Development = () => {
-  console.log(iconsDev2);
   return (
     <>
       <div className="h-82 flex flex-col justify-between">

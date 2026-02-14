@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../layout/Layout";
 import { AboutMe, TechnicalSkills } from "@/pages";
-import Courses from "../pages/Courses";
+import Courses from "../pages/courses/Courses.page";
 import Works from "../pages/Works";
 import SoftSkills from "../pages/SoftSkills";
 import Certifications from "../pages/Certifications";
