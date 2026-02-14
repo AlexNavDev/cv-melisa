@@ -13,11 +13,14 @@
     --font-eras_itc: "Eras_Itc", sans-serif;
     --font-roboto: "Roboto", sans-serif;
 
-    --animate-opacity-course: opacity-course 0.8s ease-in;
+    --animate-opacity-course: opacity-course 4.5s ease-in;
     @keyframes opacity-course {
         0% {
             opacity: 0;
             transform: translateX(-5px);
+        }
+        50% {
+            opacity: 0;
         }
 
         100% {
