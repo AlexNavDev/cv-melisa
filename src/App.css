@@ -13,6 +13,19 @@
     --font-eras_itc: "Eras_Itc", sans-serif;
     --font-roboto: "Roboto", sans-serif;
 
+    --animate-opacity-course: opacity-course 0.8s ease-in;
+    @keyframes opacity-course {
+        0% {
+            opacity: 0;
+            transform: translateX(-5px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
     --animate-photo-scale: photo 1.5s ease-in-out;
     @keyframes photo {
         0% {
