@@ -9,7 +9,7 @@ import IMGKERMESSE from "@assets/works-img/Image-la-kermesse-del-libro.png";
 import IMGTATETI from "@assets/works-img/Image-tateti.png";
 import IMGPROFUSA from "@assets/works-img/image-profusa.jpg";
 
-interface WorkUrls {
+export interface WorkUrls {
   git: string;
   video: string;
   behance: string;
