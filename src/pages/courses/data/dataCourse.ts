@@ -1,3 +1,4 @@
+// import RAMIFICACION2 from "@/assets/course-img/giphy.gif";
 import RAMIFICACION2 from "@/assets/course-img/ramificaciones-2.gif";
 import RAMIFICACION3 from "@/assets/course-img/ramificaciones-3.gif";
 
@@ -55,7 +56,7 @@ const dataCoursesCurrent: DataCourses[] = [
     year: 26,
     courses: [
       {
-        title: "IA y automatización de flujos de trabajo",
+        title: "IA automatización de flujos de trabajo",
         institution: "Campus UNC",
       },
       {
