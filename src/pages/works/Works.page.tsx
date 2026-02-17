@@ -1,6 +1,6 @@
 import SectionMain from "@/components/section-main/SectionMain";
 import Title from "@/components/title-component/Title";
-import { dataWork } from "./data/Data-card";
+import { dataWork } from "./data/dataCard";
 import CardWork from "./components/CardWork";
 const Works = () => {
   return (

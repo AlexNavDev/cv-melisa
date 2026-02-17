@@ -1,4 +1,4 @@
-import type { DataWork } from "../data/Data-card";
+import type { DataWork } from "../data/dataCard";
 import { useState } from "react";
 import SocialLinks from "./SocialLinks";
 
@@ -30,12 +30,12 @@ const CardWork = ({ data }: Props) => {
   };
 
   return (
-    <div className="w-58 h-68 m-auto mb-5 relative rounded-tr-2xl rounded-bl-4xl text-text-gray bg-card-bg">
+    <div className="w-58 h-68 m-auto mb-5 relative rounded-tr-2xl rounded-bl-4xl text-text-gray bg-card-bg overflow-hidden">
       <div
         style={{
           backgroundImage: `url(${background})`,
         }}
-        className={`w-full h-68 rounded-tr-2xl rounded-bl-4xl bg-contain duration-600 ease-in-out transition-opacity  ${isOpacity ? "opacity-100" : "opacity-30"} `}
+        className={`w-full h-68 rounded-tr-2xl rounded-bl-4xl  duration-300 bg-contain bg-center ease-in transition-all ${isOpacity ? "opacity-100 scale-110" : "opacity-30 scale-100"} `}
         onClick={handleIsOpacity}
       ></div>
       <div

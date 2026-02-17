@@ -23,7 +23,7 @@
     --font-eras_itc: "Eras_Itc", sans-serif;
     --font-roboto: "Roboto", sans-serif;
 
-    --animate-opacity-course: opacity-course 4.5s ease-in;
+    --animate-opacity-course: opacity-course 3.5s ease forwards;
     @keyframes opacity-course {
         0% {
             opacity: 0;
@@ -31,6 +31,7 @@
         }
         50% {
             opacity: 0;
+            transform: translateX(-3px);
         }
 
         100% {
