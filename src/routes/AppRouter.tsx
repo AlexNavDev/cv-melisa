@@ -1,8 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../layout/Layout";
-import { AboutMe, TechnicalSkills, Courses, Works, SoftSkills } from "@/pages";
+import {
+  AboutMe,
+  TechnicalSkills,
+  Courses,
+  Works,
+  SoftSkills,
+  Certifications,
+} from "@/pages";
 
-import Certifications from "../pages/Certifications";
 import Contact from "../pages/Contact";
 
 const AppRouter = () => {
