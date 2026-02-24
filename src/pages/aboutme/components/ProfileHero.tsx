@@ -1,4 +1,4 @@
-import MEL from "@assets/photos/principal-photo.svg";
+import MEL from "@assets/photos/foto-perfil.png";
 import PO1 from "@assets/figures/Polygon-1.svg";
 import PO2 from "@assets/figures/Polygon-2.svg";
 import PO3 from "@assets/figures/Polygon-3.svg";
