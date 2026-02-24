@@ -20,7 +20,7 @@ import ICONREACT from "@assets/icons-soft-skills/HardSkills-Icon-ReactJs.png";
 import ICONBOOTSTRAP from "@assets/icons-soft-skills/HardSkills-Icon-Bootstrap.png";
 import ICONSASS from "@assets/icons-soft-skills/HardSkills-Icon-Sass.png";
 import ICONVSC from "@assets/icons-soft-skills/HardSkills-Icon-VSC.png";
-import ICONGITHUB from "@assets/icons-soft-skills/HardSkills-Icon-Github.png";
+import ICONGITHUB from "@assets/icons-soft-skills/HardSkills-Icon-GitHub.png";
 import ICONFIRESTORE from "@assets/icons-soft-skills/HardSkills-Icon-Firestore.png";
 import ICONEXPRESS from "@assets/icons-soft-skills/HardSkills-Icon-ExpressJs.png";
 import ICONJAVA from "@assets/icons-soft-skills/HardSkills-Icon-Java.png";
