@@ -1,31 +1,28 @@
-import IMGLINE from "@assets/icons-soft-skills/Atom-Section-Line.png";
-import IMGSECTION from "@assets/icons-soft-skills/Atom-Section.png";
-
 //Diseño
-import ICONWHIMSICAL from "@assets/icons-soft-skills/HardSkills-Icon-Whimsical.png";
-import ICONPHOTOSHOP from "@assets/icons-soft-skills/HardSkills-Icon-Photoshop.png";
-import ICONILUSTRATOR from "@assets/icons-soft-skills/HardSkills-Icon-Ilustrator.png";
-import ICONFIGMA from "@assets/icons-soft-skills/HardSkills-Icon-Figma.png";
-import ICONTRELLO from "@assets/icons-soft-skills/HardSkills-Icon-Trello.png";
-import ICONOPTIMAL from "@assets/icons-soft-skills/HardSkills-Icon-Optimal.png";
-import ICONHOTJAR from "@assets/icons-soft-skills/HardSkills-Icon-Hotjar.png";
-import ICON8N from "@assets/icons-soft-skills/HardSkills-Icon-N8n.png";
+import ICONWHIMSICAL from "@assets/soft-skills/Whimsical.png";
+import ICONPHOTOSHOP from "@assets/soft-skills/Photoshop.png";
+import ICONILUSTRATOR from "@assets/soft-skills/Ilustrator.png";
+import ICONFIGMA from "@assets/soft-skills/Figma.png";
+import ICONTRELLO from "@assets/soft-skills/Trello.png";
+import ICONOPTIMAL from "@assets/soft-skills/Optimal.png";
+import ICONHOTJAR from "@assets/soft-skills/Hotjar.png";
+import ICON8N from "@assets/soft-skills/N8n.png";
 
 //Desarrollo Web
-import ICONHTML from "@assets/icons-soft-skills/HardSkills-Icon-Html.png";
-import ICONCSS from "@assets/icons-soft-skills/HardSkills-Icon-Css.png";
-import ICONJAVASCRIPT from "@assets/icons-soft-skills/HardSkills-Icon-Javascript.png";
-import ICONJQUERY from "@assets/icons-soft-skills/HardSkills-Icon-JQuery.png";
-import ICONREACT from "@assets/icons-soft-skills/HardSkills-Icon-ReactJs.png";
-import ICONBOOTSTRAP from "@assets/icons-soft-skills/HardSkills-Icon-Bootstrap.png";
-import ICONSASS from "@assets/icons-soft-skills/HardSkills-Icon-Sass.png";
-import ICONVSC from "@assets/icons-soft-skills/HardSkills-Icon-VSC.png";
-import ICONGITHUB from "@assets/icons-soft-skills/HardSkills-Icon-GitHub.png";
-import ICONFIRESTORE from "@assets/icons-soft-skills/HardSkills-Icon-Firestore.png";
-import ICONEXPRESS from "@assets/icons-soft-skills/HardSkills-Icon-ExpressJs.png";
-import ICONJAVA from "@assets/icons-soft-skills/HardSkills-Icon-Java.png";
-import ICONNODE from "@assets/icons-soft-skills/HardSkills-Icon-NodeJs.png";
-import ICONMYSQL from "@assets/icons-soft-skills/HardSkills-Icon-Mysql.png";
+import ICONHTML from "@assets/soft-skills/Html.png";
+import ICONCSS from "@assets/soft-skills/Css.png";
+import ICONJAVASCRIPT from "@assets/soft-skills/Javascript.png";
+import ICONJQUERY from "@assets/soft-skills/JQuery.png";
+import ICONREACT from "@assets/soft-skills/ReactJs.png";
+import ICONBOOTSTRAP from "@assets/soft-skills/Bootstrap.png";
+import ICONSASS from "@assets/soft-skills/Sass.png";
+import ICONVSC from "@assets/soft-skills/VSC.png";
+import ICONGITHUB from "@assets/soft-skills/GitHub.png";
+import ICONFIRESTORE from "@assets/soft-skills/Firestore.png";
+import ICONEXPRESS from "@assets/soft-skills/ExpressJs.png";
+import ICONJAVA from "@assets/soft-skills/Java.png";
+import ICONNODE from "@assets/soft-skills/NodeJs.png";
+import ICONMYSQL from "@assets/soft-skills/Mysql.png";
 
 interface Icons {
   id: string;
@@ -150,4 +147,4 @@ const iconsDev2: Icons[] = [
     url: ICONMYSQL,
   },
 ];
-export { IMGLINE, IMGSECTION, iconsDesign, iconsDev, iconsDev2 };
+export {iconsDesign, iconsDev, iconsDev2 };

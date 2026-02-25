@@ -1,5 +1,5 @@
-import SectionMain from "@/components/section-main/SectionMain";
-import Title from "@/components/title-component/Title";
+import SectionMain from "@/components/main/SectionMain";
+import Title from "@/components/title/Title";
 import { dataWork } from "./data/dataCard";
 import CardWork from "./components/CardWork";
 const Works = () => {

@@ -7,9 +7,10 @@ import {
   Works,
   SoftSkills,
   Certifications,
+  Contact,
 } from "@/pages";
 
-import Contact from "../pages/Contact";
+
 
 const AppRouter = () => {
   return (
