@@ -1,13 +1,13 @@
-import IMGECOTECH from "@assets/works-img/Image-ecotech.png";
-import IMGARTEKUALI from "@assets/works-img/Image-artekuali.png";
-import IMGAPPCOMENSALES from "@assets/works-img/Image-appcomensales.jpg";
-import IMGAPPRAPPI from "@assets/works-img/Image-apprappi.jpg";
-import IMGWISH from "@assets/works-img/Image-wish-him.png";
-import IMGMIDAS from "@assets/works-img/Image-midas-data-studio.png";
-import IMGSALUDABLE from "@assets/works-img/Image-proyecto-saludable.png";
-import IMGKERMESSE from "@assets/works-img/Image-la-kermesse-del-libro.png";
-import IMGTATETI from "@assets/works-img/Image-tateti.png";
-import IMGPROFUSA from "@assets/works-img/Image-profusa.jpg";
+import IMGECOTECH from "@assets/works/ecotech.png";
+import IMGARTEKUALI from "@assets/works/artekuali.png";
+import IMGAPPCOMENSALES from "@assets/works/appcomensales.jpg";
+import IMGAPPRAPPI from "@assets/works/apprappi.jpg";
+import IMGWISH from "@assets/works/wish-him.png";
+import IMGMIDAS from "@assets/works/midas-data-studio.png";
+import IMGSALUDABLE from "@assets/works/proyecto-saludable.png";
+import IMGKERMESSE from "@assets/works/kermesse-del-libro.png";
+import IMGTATETI from "@assets/works/tateti.png";
+import IMGPROFUSA from "@assets/works/profusa.jpg";
 
 export interface WorkUrls {
   git: string;

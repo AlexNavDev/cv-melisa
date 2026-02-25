@@ -4,3 +4,4 @@ export { default as Courses } from "./courses/Courses.page";
 export { default as Works } from "./works/Works.page";
 export { default as SoftSkills } from "./soft-skills/SoftSkills.page";
 export { default as Certifications } from "./certifications/Certifications.page";
+export { default as Contact } from "./contact/Contact.page";

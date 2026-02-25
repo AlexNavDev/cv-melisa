@@ -1,13 +1,13 @@
 import IMGPHOTOSHOP from "@assets/certificates/Photoshop-Ilustrator.png";
-import IMGDISUX from "@assets/certificates/Certificado-Diseño-UX-UI.png";
-import IMGDESWEB from "@assets/certificates/Certificado-Desarrollo-Web.png";
-import IMGDISUXAV from "@assets/certificates/Certificado-Diseño -UX-UI Avanzado.png";
-import IMGJAVASCRIPT from "@assets/certificates/Certificado-Javascript.png";
-import IMGREACT from "@assets/certificates/Certificado-React.png";
+import IMGDISUX from "@assets/certificates/Diseño-UX-UI.png";
+import IMGDESWEB from "@assets/certificates/Desarrollo-Web.png";
+import IMGDISUXAV from "@assets/certificates/Diseño-UX-UI-Avanzado.png";
+import IMGJAVASCRIPT from "@assets/certificates/Javascript.png";
+import IMGREACT from "@assets/certificates/React.png";
 import IMGFUNPRO from "@assets/certificates/Fundamentos-programación.jpg";
-import IMGCODOJAVASCRIPTNODE from "@assets/certificates/Diploma-CodoAcodo.jpg";
-import IMGPROGJAVA from "@assets/certificates/Certificado-Inovadoras-Digitales-Java.jpeg";
-import IMGIAAUTOMA from "@assets/certificates/Certificado-IA-Automatizacion.jpg";
+import IMGCODOJAVASCRIPTNODE from "@assets/certificates/CodoAcodo.jpg";
+import IMGPROGJAVA from "@assets/certificates/Inovadoras-Digitales-Java.jpeg";
+import IMGIAAUTOMA from "@assets/certificates/IA-Automatizacion.jpg";
 import IMGBUTTON from "@assets/certificates/Mobile-Module-Button.png";
 
 export interface Certificates {
