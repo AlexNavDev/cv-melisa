@@ -1,5 +1,5 @@
-import IMGLINE from "@assets/icons-soft-skills/Atom-Section-Line.png";
-import IMGSECTION from "@assets/icons-soft-skills/Atom-Section.png";
+import IMGLINE from "@assets/title/Atom-Section-Line.png";
+import IMGSECTION from "@assets/title/Atom-Section.png";
 
 interface Props {
   title: string;

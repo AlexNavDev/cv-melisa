@@ -1,7 +1,7 @@
-import Title from "@/components/title-component/Title";
+import Title from "@/components/title/Title";
 import BlockStudies from "./components/BlockStudies";
 import { dataCoursesCurrent } from "./data/dataCourse";
-import SectionMain from "@/components/section-main/SectionMain";
+import SectionMain from "@/components/main/SectionMain";
 
 const Courses = () => {
   return (

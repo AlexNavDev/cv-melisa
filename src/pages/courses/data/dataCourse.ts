@@ -1,6 +1,6 @@
 // import RAMIFICACION2 from "@/assets/course-img/giphy.gif";
-import RAMIFICACION2 from "@/assets/course-img/ramificaciones-2.gif";
-import RAMIFICACION3 from "@/assets/course-img/ramificaciones-3.gif";
+import RAMIFICACION2 from "@/assets/course/ramificaciones-2.gif";
+import RAMIFICACION3 from "@/assets/course/ramificaciones-3.gif";
 
 interface Courses {
   title: string;

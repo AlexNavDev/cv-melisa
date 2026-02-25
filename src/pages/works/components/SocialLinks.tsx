@@ -1,6 +1,6 @@
-import IMGCODE from "@assets/works-img/code.png";
-import IMGEPLAY from "@assets/works-img/play.png";
-import IMGEBELANCE from "@assets/works-img/belance.png";
+import IMGCODE from "@assets/works/code.png";
+import IMGEPLAY from "@assets/works/play.png";
+import IMGEBELANCE from "@assets/works/belance.png";
 import { Link } from "react-router-dom";
 import type { WorkUrls } from "../data/dataCard";
 interface Props {

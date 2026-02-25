@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 
-import ICONSOBREMI from "@assets/icon-svg-nav/Icon-SobreMi.svg";
-import ICONHABILIDADESTEC from "@assets/icon-svg-nav/Icon-HabilidadesTecnicas.svg";
-import ICONCURSOS from "@assets/icon-svg-nav/Icon-Cursos.svg";
-import ICONTRABAJOS from "@assets/icon-svg-nav/Icon-Portafolio.svg";
-import ICONHABILIDADESBLA from "@assets/icon-svg-nav/Icon-HabilidadesBlandas.svg";
-import ICONCERTIFICADOS from "@assets/icon-svg-nav/Icon-Certificados.svg";
-import ICONCONTACTO from "@assets/icon-svg-nav/Icon-Contacto.svg";
+import ICONSOBREMI from "@assets/nav/Icon-SobreMi.svg";
+import ICONHABILIDADESTEC from "@assets/nav/Icon-HabilidadesTecnicas.svg";
+import ICONCURSOS from "@assets/nav/Icon-Cursos.svg";
+import ICONTRABAJOS from "@assets/nav/Icon-Portafolio.svg";
+import ICONHABILIDADESBLA from "@assets/nav/Icon-HabilidadesBlandas.svg";
+import ICONCERTIFICADOS from "@assets/nav/Icon-Certificados.svg";
+import ICONCONTACTO from "@assets/nav/Icon-Contacto.svg";
 
 const Navbar = () => {
   const tabs = [
