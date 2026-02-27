@@ -13,6 +13,7 @@ export interface WorkUrls {
   git: string;
   video: string;
   behance: string;
+  name: string;
 }
 
 export interface DataWork {
@@ -31,8 +32,9 @@ const dataWork: DataWork[] = [
     background: IMGECOTECH,
     url: {
       git: "https://github.com",
-      video: "https://youtube.com",
+      video: "https://www.youtube.com/embed/zfUCkHe62Zw",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -44,6 +46,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -55,6 +58,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -66,6 +70,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -75,8 +80,9 @@ const dataWork: DataWork[] = [
     background: IMGWISH,
     url: {
       git: "https://github.com",
-      video: "https://youtube.com",
+      video: "https://www.youtube.com/embed/3u8LrQotSZg",
       behance: "https://behance.com",
+      name: "Página Web Wish Him",
     },
   },
   {
@@ -86,8 +92,9 @@ const dataWork: DataWork[] = [
     background: IMGMIDAS,
     url: {
       git: "https://github.com",
-      video: "https://youtube.com",
+      video: "https://www.youtube.com/embed/zfUCkHe62Zw",
       behance: "https://behance.com",
+      name: "Página Web Data Midas",
     },
   },
   {
@@ -99,6 +106,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -110,6 +118,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -121,6 +130,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -132,6 +142,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
 ];

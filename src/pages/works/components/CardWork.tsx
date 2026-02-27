@@ -1,12 +1,13 @@
-import type { DataWork } from "../data/dataCard";
+import type { DataWork, WorkUrls } from "../data/dataCard";
 import { useState } from "react";
 import SocialLinks from "./SocialLinks";
 
 interface Props {
   data: DataWork;
+  onClick: (url: WorkUrls) => void;
 }
 
-const CardWork = ({ data }: Props) => {
+const CardWork = ({ data, onClick }: Props) => {
   const { role, work, background, url } = data;
   const [isOpacity, setIsOpacity] = useState(false);
 
@@ -44,7 +45,7 @@ const CardWork = ({ data }: Props) => {
         <p className="text-xl font-bold">{role}</p>
       </div>
 
-      <SocialLinks url={url} work={work} />
+      <SocialLinks url={url} work={work} onClick={onClick} />
     </div>
   );
 };
