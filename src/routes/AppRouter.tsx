@@ -10,8 +10,6 @@ import {
   Contact,
 } from "@/pages";
 
-
-
 const AppRouter = () => {
   return (
     <BrowserRouter>
