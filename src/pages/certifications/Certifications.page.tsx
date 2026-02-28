@@ -1,4 +1,4 @@
-import SectionMain from "@/components/main/SectionMain";
+import Container from "@/components/container/Container";
 import Title from "@/components/title/Title";
 import { dataCertificates } from "./data/dataCertificates";
 import CardCertificate from "./components/CardCertificate";
@@ -6,7 +6,7 @@ import CardCertificate from "./components/CardCertificate";
 const Certifications = () => {
   return (
     <>
-      <SectionMain>
+      <Container>
         <Title title="Certificados" />
 
         <div className="w-full mt-5 flex flex-wrap justify-between font-roboto text-xs">
@@ -14,7 +14,7 @@ const Certifications = () => {
             <CardCertificate data={data} />
           ))}
         </div>
-      </SectionMain>
+      </Container>
     </>
   );
 };

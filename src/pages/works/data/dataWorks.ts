@@ -13,6 +13,7 @@ export interface WorkUrls {
   git: string;
   video: string;
   behance: string;
+  name: string;
 }
 
 export interface DataWork {
@@ -31,8 +32,9 @@ const dataWork: DataWork[] = [
     background: IMGECOTECH,
     url: {
       git: "https://github.com",
-      video: "https://youtube.com",
+      video: "https://www.youtube.com/embed/zfUCkHe62Zw",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -44,6 +46,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -55,6 +58,7 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
@@ -66,72 +70,79 @@ const dataWork: DataWork[] = [
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
     id: "work-5",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGWISH,
     url: {
       git: "https://github.com",
-      video: "https://youtube.com",
+      video: "https://www.youtube.com/embed/3u8LrQotSZg",
       behance: "https://behance.com",
+      name: "Página Web Wish Him",
     },
   },
   {
     id: "work-6",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGMIDAS,
     url: {
       git: "https://github.com",
-      video: "https://youtube.com",
+      video: "https://www.youtube.com/embed/zfUCkHe62Zw",
       behance: "https://behance.com",
+      name: "Página Web Data Midas",
     },
   },
   {
     id: "work-7",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGSALUDABLE,
     url: {
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
     id: "work-8",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGKERMESSE,
     url: {
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
     id: "work-9",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGTATETI,
     url: {
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
   {
     id: "work-10",
-    role: "Diseño",
+    role: "Diseño de Marca",
     work: "Rediseño app",
     background: IMGPROFUSA,
     url: {
       git: "https://github.com",
       video: "https://youtube.com",
       behance: "https://behance.com",
+      name: "Página web data midas",
     },
   },
 ];

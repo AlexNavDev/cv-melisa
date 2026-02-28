@@ -1,12 +1,13 @@
-import type { DataWork } from "../data/dataCard";
+import type { DataWork, WorkUrls } from "../data/dataWorks";
 import { useState } from "react";
 import SocialLinks from "./SocialLinks";
 
 interface Props {
   data: DataWork;
+  onClick: (url: WorkUrls) => void;
 }
 
-const CardWork = ({ data }: Props) => {
+const CardWork = ({ data, onClick }: Props) => {
   const { role, work, background, url } = data;
   const [isOpacity, setIsOpacity] = useState(false);
 
@@ -14,9 +15,9 @@ const CardWork = ({ data }: Props) => {
     switch (role) {
       case "Ux/Ui":
         return "inset-shadow-pink-blur-top shadow-sm shadow-pink-blur-bottom bg-text-pink";
-      case "<Dev/>":
+      case "Diseño & Dev":
         return "inset-shadow-purple-blur-top shadow-sm shadow-purple-blur-bottom bg-inactive";
-      case "Diseño":
+      case "Diseño de Marca":
         return "inset-shadow-blue-blur-top shadow-sm shadow-blue-blur-bottom bg-blue-card";
       default:
         return "";
@@ -39,12 +40,12 @@ const CardWork = ({ data }: Props) => {
         onClick={handleIsOpacity}
       ></div>
       <div
-        className={`w-19 h-17 flex items-center justify-center absolute top-0 right-0 rounded-tr-2xl rounded-bl-4xl inset-shadow-sm ${styleCard}`}
+        className={`w-26 h-22 text-center  flex items-center justify-center absolute top-0 right-0 rounded-tr-2xl rounded-bl-4xl inset-shadow-sm ${styleCard}`}
       >
         <p className="text-xl font-bold">{role}</p>
       </div>
 
-      <SocialLinks url={url} work={work} />
+      <SocialLinks url={url} work={work} onClick={onClick} />
     </div>
   );
 };

@@ -99,6 +99,9 @@ const iconsDev: Icons[] = [
     name: "React",
     url: ICONREACT,
   },
+];
+
+const iconsDev2: Icons[] = [
   {
     id: "dev-6",
     name: "Bootstrap",
@@ -120,7 +123,8 @@ const iconsDev: Icons[] = [
     url: ICONGITHUB,
   },
 ];
-const iconsDev2: Icons[] = [
+
+const iconsDev3: Icons[] = [
   {
     id: "dev2-10",
     name: "Firestore",
@@ -147,4 +151,4 @@ const iconsDev2: Icons[] = [
     url: ICONMYSQL,
   },
 ];
-export {iconsDesign, iconsDev, iconsDev2 };
+export { iconsDesign, iconsDev, iconsDev2, iconsDev3 };

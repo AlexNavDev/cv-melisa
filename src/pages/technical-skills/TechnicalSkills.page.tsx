@@ -1,16 +1,16 @@
 import Title from "@/components/title/Title";
 import Design from "./components/Design";
 import Development from "./components/Development";
-import SectionMain from "@/components/main/SectionMain";
+import Container from "@/components/container/Container";
 
 const TechnicalSkills = () => {
   return (
     <>
-      <SectionMain>
+      <Container>
         <Title title="Habilidades Técnicas" />
         <Design />
         <Development />
-      </SectionMain>
+      </Container>
     </>
   );
 };
