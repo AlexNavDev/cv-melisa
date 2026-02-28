@@ -75,7 +75,7 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-5",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGWISH,
     url: {
@@ -87,7 +87,7 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-6",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGMIDAS,
     url: {
@@ -99,7 +99,7 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-7",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGSALUDABLE,
     url: {
@@ -111,7 +111,7 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-8",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGKERMESSE,
     url: {
@@ -123,7 +123,7 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-9",
-    role: "<Dev/>",
+    role: "Diseño & Dev",
     work: "Diseño app",
     background: IMGTATETI,
     url: {
@@ -135,7 +135,7 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-10",
-    role: "Diseño",
+    role: "Diseño de Marca",
     work: "Rediseño app",
     background: IMGPROFUSA,
     url: {

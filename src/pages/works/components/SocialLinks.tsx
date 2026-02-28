@@ -2,7 +2,7 @@ import IMGCODE from "@assets/works/code.png";
 import IMGEPLAY from "@assets/works/play.png";
 import IMGEBELANCE from "@assets/works/belance.png";
 import { Link } from "react-router-dom";
-import type { WorkUrls } from "../data/dataCard";
+import type { WorkUrls } from "../data/dataWorks";
 
 interface Props {
   url: WorkUrls;

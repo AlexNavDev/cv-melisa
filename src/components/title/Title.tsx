@@ -7,8 +7,8 @@ interface Props {
 
 const Title = ({ title }: Props) => {
   return (
-    <div className="h-20 mb-5 ">
-      <h2 className="text-2xl text-text-pink">{title}</h2>
+    <div className="h-20 mb-6.25 ">
+      <h2 className="text-2xl text-text-pink ">{title}</h2>
       <figure>
         <img src={IMGLINE} alt="linea" />
       </figure>

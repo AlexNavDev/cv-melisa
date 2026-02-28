@@ -1,4 +1,4 @@
-import SectionMain from "@/components/main/SectionMain";
+import Container from "@/components/container/Container";
 import Title from "@/components/title/Title";
 
 const SoftSkills = () => {
@@ -6,7 +6,7 @@ const SoftSkills = () => {
     "size-21 absolute text-center flex items-center justify-center rounded-md text-text-orange,text-text-orange-dark)] border-[1.47px] bg-linear-to-tl from to-text-orange to text-text-orange-dark";
   return (
     <>
-      <SectionMain>
+      <Container>
         <Title title="Habilidades Blandas" />
         <div className="h-96">
           <div className="h-80 relative flex justify-center font-roboto rounded-full">
@@ -53,7 +53,7 @@ const SoftSkills = () => {
             </div>
           </div>
         </div>
-      </SectionMain>
+      </Container>
     </>
   );
 };
