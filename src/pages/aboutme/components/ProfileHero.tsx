@@ -20,12 +20,12 @@ const ProfileHero = () => {
           <img
             src={PO1}
             alt="Elemento decorativo animado"
-            className="w-8 absolute left-11 top-0 "
+            className="w-8 absolute left-11 top-0 animate-rotate-center"
           />
           <img
             src={PO2}
             alt="Elemento decorativo animado"
-            className="w-8 absolute left-2/3 top-0 animate-tilt-in-fwd-tr z-10"
+            className="w-8 absolute left-2/4 top-0 animate-scale-up"
           />
           <img
             src={PO3}
@@ -35,27 +35,27 @@ const ProfileHero = () => {
           <img
             src={PO4}
             alt="Elemento decorativo animado"
-            className="w-10 absolute right-0 top-2/4"
+            className="w-10 absolute right-3 top-2/4 animate-rotate-center-14"
           />
           <img
             src={PO1}
             alt="Elemento decorativo animado"
-            className="w-14 absolute right-10 top-4/5 "
+            className="w-14 absolute right-10 top-4/5 animate-spin"
           />
           <img
             src={PO5}
             alt="Elemento decorativo animado"
-            className="w-10 absolute left-16 top-10/12 "
+            className="w-10 absolute left-16 top-10/12 animate-scale-down-up"
           />
           <img
             src={PO6}
             alt="Elemento decorativo animado"
-            className="w-8 absolute left-3 top-3/5 animate-scale-up-left"
+            className="w-8 absolute left-3 top-3/5 animate-scale-up-left "
           />
           <img
             src={PO7}
             alt="Elemento decorativo animado"
-            className="w-8 absolute left-3 top-1/5"
+            className="w-8 absolute left-3 top-1/5 animate-rotate-center"
           />
         </div>
       </figure>
