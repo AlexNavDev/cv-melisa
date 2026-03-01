@@ -87,14 +87,36 @@
     }
   }
 
-  --animate-tilt-in-fwd-tr: tilt-in-fwd-tr 1.3s ease-in-out infinite alternate
-    both;
-  @keyframes tilt-in-fwd-tr {
+  /* Animaciones perfil */
+  --animate-rotate-center: rotate-center 1s linear infinite both;
+  @keyframes rotate-center {
     0% {
-      transform: translate(-85px, 90px) scale(1);
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  --animate-rotate-center-14: rotate-center-14 1.4s linear infinite both;
+  @keyframes rotate-center-14 {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  --animate-scale-up: scale-up 1.3s ease-in-out infinite alternate both;
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.6);
     }
     100% {
-      transform: translate(0, 0) scale(0.6);
+      transform: scale(1.5);
     }
   }
 
@@ -103,14 +125,27 @@
   @keyframes scale-up-left {
     0% {
       transform: scale(0.75);
-      transform-origin: -10px center;
+      transform-origin: -7px center;
     }
 
     100% {
       transform: scale(1.5);
-      transform-origin: -50px center;
+      transform-origin: 0px center;
     }
   }
+  --animate-scale-down-up: scale-down-up 0.9s ease infinite alternate both;
+
+  @keyframes scale-down-up {
+    0% {
+      transform: translateY(20px);
+    }
+
+    100% {
+      transform: translateY(-11px);
+    }
+  }
+
+  /* fin animaciones */
 
   --animate-fadeIn: fadeIn 0.3s ease-in forwards;
 
