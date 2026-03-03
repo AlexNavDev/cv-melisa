@@ -7,16 +7,17 @@ import type { WorkUrls } from "../data/dataWorks";
 interface Props {
   url: WorkUrls;
   work: string;
-  onClick: (url: WorkUrls) => void;
+  id: string;
+  onClick: (id: string) => void;
 }
 
-const SocialLinks = ({ url, work, onClick }: Props) => {
+const SocialLinks = ({ id, work, url, onClick }: Props) => {
   const { git, behance } = url;
 
   return (
     <div>
-      <div className="w-44 h-25 flex flex-col items-center justify-evenly  absolute bottom-0 left-0 bg-text-orange rounded-tr-2xl rounded-bl-4xl  inset-shadow-sm inset-shadow-orange-blur-top shadow-sm shadow-orange-blur-bottom">
-        <p className="text-2xl font-medium">{work}</p>
+      <div className="w-44 h-25 flex flex-col items-center justify-evenly absolute bottom-0 left-0 bg-text-orange rounded-tr-2xl rounded-bl-4xl inset-shadow-sm inset-shadow-orange-blur-top shadow-sm shadow-orange-blur-bottom">
+        <p className="text-[22px] font-medium">{work}</p>
 
         <div className="w-38 h-11 flex justify-between">
           <Link
@@ -27,7 +28,7 @@ const SocialLinks = ({ url, work, onClick }: Props) => {
           >
             <img src={IMGCODE} alt="ir al código" />
           </Link>
-          <div className="size-10 rounded-full" onClick={() => onClick(url)}>
+          <div className="size-10 rounded-full" onClick={() => onClick(id)}>
             <img src={IMGEPLAY} alt="ir a la página" />
           </div>
           <Link

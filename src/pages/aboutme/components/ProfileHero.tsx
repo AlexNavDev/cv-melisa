@@ -30,17 +30,17 @@ const ProfileHero = () => {
           <img
             src={PO3}
             alt="Elemento decorativo animado"
-            className="w-14 absolute right-0 top-1/5 animate-spin"
+            className="w-14 absolute right-0 top-1/5 animate-rotate-center"
           />
           <img
             src={PO4}
             alt="Elemento decorativo animado"
-            className="w-10 absolute right-3 top-2/4 animate-rotate-center-14"
+            className="w-10 absolute right-3 top-2/4 animate-rotate-center"
           />
           <img
             src={PO1}
             alt="Elemento decorativo animado"
-            className="w-14 absolute right-10 top-4/5 animate-spin"
+            className="w-14 absolute right-10 top-4/5 animate-rotate-center"
           />
           <img
             src={PO5}
