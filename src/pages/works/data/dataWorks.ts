@@ -75,8 +75,8 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-5",
-    role: "Diseño & Dev",
-    work: "Diseño app",
+    role: "<Dev/>",
+    work: "Diseño & Dev",
     background: IMGWISH,
     url: {
       git: "https://github.com",
@@ -87,8 +87,8 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-6",
-    role: "Diseño & Dev",
-    work: "Diseño app",
+    role: "<Dev/>",
+    work: "Diseño & Dev",
     background: IMGMIDAS,
     url: {
       git: "https://github.com",
@@ -99,8 +99,8 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-7",
-    role: "Diseño & Dev",
-    work: "Diseño app",
+    role: "<Dev/>",
+    work: "Diseño & Dev",
     background: IMGSALUDABLE,
     url: {
       git: "https://github.com",
@@ -111,8 +111,8 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-8",
-    role: "Diseño & Dev",
-    work: "Diseño app",
+    role: "<Dev/>",
+    work: "Diseño & Dev",
     background: IMGKERMESSE,
     url: {
       git: "https://github.com",
@@ -123,8 +123,8 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-9",
-    role: "Diseño & Dev",
-    work: "Diseño app",
+    role: "<Dev/>",
+    work: "Diseño & Dev",
     background: IMGTATETI,
     url: {
       git: "https://github.com",
@@ -135,8 +135,8 @@ const dataWork: DataWork[] = [
   },
   {
     id: "work-10",
-    role: "Diseño de Marca",
-    work: "Rediseño app",
+    role: "Diseño",
+    work: "Diseño de Marca",
     background: IMGPROFUSA,
     url: {
       git: "https://github.com",

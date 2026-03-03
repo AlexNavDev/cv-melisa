@@ -2,10 +2,11 @@ import type { Certificates } from "../data/dataCertificates";
 
 interface Props {
   data: Certificates;
+  onClick: (id: string) => void;
 }
 
-const CardCertificate = ({ data }: Props) => {
-  const { name, url, buttom } = data;
+const CardCertificate = ({ data, onClick }: Props) => {
+  const { name, url, buttom, id } = data;
   return (
     <>
       <div className="w-36 h-34">
@@ -13,6 +14,7 @@ const CardCertificate = ({ data }: Props) => {
           <img src={url} alt={name} className="w-full h-20 mb-3 rounded-2xl" />
           <figcaption className="font-medium tracking-wide">{name}</figcaption>
           <div
+            onClick={() => onClick(id)}
             style={{
               backgroundImage: `url(${buttom})`,
             }}

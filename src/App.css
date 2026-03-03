@@ -25,23 +25,23 @@
   --font-eras_itc: "Eras_Itc", sans-serif;
   --font-roboto: "Roboto", sans-serif;
 
-  --animate-opacity-course: opacity-course 2s ease forwards;
-  @keyframes opacity-course {
+  /* Animación Título */
+  --animate-opacity-title: opacity-title 1s both 2s;
+  @keyframes opacity-title {
     0% {
       opacity: 0;
-      transform: translateX(-5px);
     }
+
     50% {
-      opacity: 0;
-      transform: translateX(-3px);
+      opacity: 0.5;
     }
 
     100% {
       opacity: 1;
-      transform: translateX(0);
     }
   }
 
+  /* Animación Perfil */
   --animate-photo-scale: photo 1.5s ease-in-out;
   @keyframes photo {
     0% {
@@ -87,20 +87,8 @@
     }
   }
 
-  /* Animaciones perfil */
-  --animate-rotate-center: rotate-center 1s linear infinite both;
+  --animate-rotate-center: rotate-center 1.2s linear infinite both;
   @keyframes rotate-center {
-    0% {
-      transform: rotate(0);
-    }
-
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  --animate-rotate-center-14: rotate-center-14 1.4s linear infinite both;
-  @keyframes rotate-center-14 {
     0% {
       transform: rotate(0);
     }
@@ -145,7 +133,23 @@
     }
   }
 
-  /* fin animaciones */
+  /*Animaciones Cursos */
+  --animate-opacity-course: opacity-course 2s ease forwards;
+  @keyframes opacity-course {
+    0% {
+      opacity: 0;
+      transform: translateX(-5px);
+    }
+    50% {
+      opacity: 0;
+      transform: translateX(-3px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
   --animate-fadeIn: fadeIn 0.3s ease-in forwards;
 
@@ -167,6 +171,42 @@
 
     100% {
       opacity: 0;
+    }
+  }
+
+  /* Animación Contacto */
+  --animate-bounceInLeft: bounceInLeft 1s 1s both;
+
+  @keyframes bounceInLeft {
+    0%,
+    60%,
+    75%,
+    90%,
+    100% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+    100% {
+      -webkit-transform: none;
+      transform: none;
     }
   }
 }
