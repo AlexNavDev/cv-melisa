@@ -2,7 +2,7 @@ import { iconsDesign } from "../data/icons";
 
 const Design = () => {
   return (
-    <div className="h-64 flex flex-col justify-evenly">
+    <div className="h-57 flex flex-col justify-between bg-amber-50">
       <p className="text-sm">Diseño UX/UI</p>
       <div className="h-46 flex flex-wrap justify-evenly gap-x-6 text-[11px]">
         {iconsDesign.map(({ id, name, url }) => (
