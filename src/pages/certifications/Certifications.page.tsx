@@ -2,8 +2,13 @@ import Container from "@/components/container/Container";
 import Title from "@/components/title/Title";
 import { dataCertificates } from "./data/dataCertificates";
 import CardCertificate from "./components/CardCertificate";
+import { useModal } from "@/hooks/useModal";
+import ModalCertificate from "./components/ModalCertificate";
 
 const Certifications = () => {
+  const { isOpen, id, handleOpenModal, handleCloseModal } = useModal();
+  const dataModal = dataCertificates?.find((data) => data.id === id);
+
   return (
     <>
       <Container>
@@ -11,10 +16,13 @@ const Certifications = () => {
 
         <div className="w-full mt-5 flex flex-wrap justify-between font-roboto text-xs">
           {dataCertificates.map((data) => (
-            <CardCertificate data={data} />
+            <CardCertificate data={data} onClick={handleOpenModal} />
           ))}
         </div>
       </Container>
+      {isOpen && dataModal && (
+        <ModalCertificate onClick={handleCloseModal} dataModal={dataModal} />
+      )}
     </>
   );
 };

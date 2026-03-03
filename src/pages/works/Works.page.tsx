@@ -2,11 +2,12 @@ import Container from "@/components/container/Container";
 import Title from "@/components/title/Title";
 import { dataWork } from "./data/dataWorks";
 import CardWork from "./components/CardWork";
-import Modal from "@/components/modal/Modal";
+import ModalWork from "./components/ModalWork";
 import { useModal } from "@/hooks/useModal";
 
 const Works = () => {
-  const { isOpen, handleOpenModal, handleCloseModal, dataVideo } = useModal();
+  const { isOpen, handleOpenModal, handleCloseModal, id } = useModal();
+  const dataModal = dataWork?.find((data) => data.id === id);
 
   return (
     <>
@@ -17,7 +18,9 @@ const Works = () => {
         ))}
       </Container>
 
-      {isOpen && <Modal onClick={handleCloseModal} dataVideo={dataVideo} />}
+      {isOpen && dataModal && (
+        <ModalWork onClick={handleCloseModal} dataModal={dataModal} />
+      )}
     </>
   );
 };

@@ -1,24 +1,19 @@
-import type { WorkUrls } from "@/pages/works/data/dataWorks";
 import { useState } from "react";
 
 export const useModal = () => {
-  const initialDataVideo = {
-    git: "",
-    video: "",
-    name: "",
-    behance: "",
-  };
+  const initialId = null;
 
   const [isOpen, setIsOpen] = useState(false);
-  const [dataVideo, setDataVideo] = useState(initialDataVideo);
+  const [id, setId] = useState<string | null>(initialId);
 
-  const handleOpenModal = (url: WorkUrls) => {
+  const handleOpenModal = (id: string) => {
     setIsOpen(true);
-    setDataVideo(url);
+    setId(id);
   };
   const handleCloseModal = () => {
     setIsOpen(false);
+    setId(initialId);
   };
 
-  return { isOpen, handleOpenModal, handleCloseModal, dataVideo };
+  return { isOpen, id, handleOpenModal, handleCloseModal };
 };
