@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Container>
-        <Title title="Encuentrame" />
+        <Title title="Encontrame" />
 
         <section className="h-60 mt-3 flex flex-col justify-between ">
           {dataContact.map((data) => (

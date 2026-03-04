@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { Contact } from "../data/dataContact";
 
 interface Props {
@@ -5,14 +6,47 @@ interface Props {
 }
 
 const SectionContact = ({ data }: Props) => {
-  const { name, url, info } = data;
+  const { name, url, info, link } = data;
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch (err) {
+      console.error("Error copiando al portapapeles:", err);
+    }
+  };
+
   return (
     <div className="w-full h-10 font-roboto font-light animate-bounceInLeft">
-      <div className="flex gap-4 items-center  ">
+      <div className="flex items-center gap-3">
         <figure className="w-10">
           <img src={url} alt={name} />
         </figure>
-        <p className="text-sm">{info}</p>
+
+        {/* Si hay info, se puede copiar */}
+        {info && (
+          <span
+            className="text-sm cursor-pointer hover:text-gray-600"
+            onClick={() => handleCopy(info)}
+          >
+            {copied ? "¡Copiado!" : info}
+          </span>
+        )}
+
+        {/* Si hay link, abrir en nueva pestaña */}
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-text-orange "
+          >
+            {name}
+          </a>
+        )}
       </div>
     </div>
   );

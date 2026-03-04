@@ -8,10 +8,11 @@ export interface Contact {
   id: string;
   name: string;
   url: string;
-  info: string;
+  info?: string;
+  link?: string;
 }
 
-export const dataContact:Contact[] = [
+export const dataContact: Contact[] = [
   {
     id: "1",
     name: "Celular",
@@ -28,18 +29,18 @@ export const dataContact:Contact[] = [
     id: "3",
     name: "Linkedin",
     url: ICONLINKEDIN,
-    info: "https://www.linkedin.com/melisa-s-oro",
+    link: "https://www.linkedin.com/melisa-s-oro",
   },
   {
     id: "4",
     name: "Github",
     url: ICONGITHUB,
-    info: "https://github.com/melocotonoro",
+    link: "https://github.com/melocotonoro",
   },
   {
     id: "5",
     name: "Behance",
     url: ICONBEHANCE,
-    info: "https://www.behance.net/melisaoro",
+    link: "https://www.behance.net/melisaoro",
   },
 ];
