@@ -29,7 +29,7 @@ export const dataContact: Contact[] = [
     id: "3",
     name: "Linkedin",
     url: ICONLINKEDIN,
-    link: "https://www.linkedin.com/melisa-s-oro",
+    link: "https://www.linkedin.com/in/melisa-s-oro",
   },
   {
     id: "4",

@@ -41,6 +41,20 @@
     }
   }
 
+  --animate-flash: flash 3.3s 1s ease-in infinite;
+  @keyframes flash {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+
   /* Animación Perfil */
   --animate-photo-scale: photo 1.5s ease-in-out;
   @keyframes photo {

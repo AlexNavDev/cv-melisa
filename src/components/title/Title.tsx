@@ -12,8 +12,9 @@ const Title = ({ title }: Props) => {
       <figure>
         <img src={IMGLINE} alt="linea" />
       </figure>
-      <figure>
-        <img src={IMGSECTION} alt="división" />
+      <figure className="relative">
+        <img src={IMGSECTION} alt="división" className="z-50" />
+        <div className="w-60 h-6 absolute top-0 -z-10 blur-md animate-flash bg-text-pink/20 "></div>
       </figure>
     </div>
   );

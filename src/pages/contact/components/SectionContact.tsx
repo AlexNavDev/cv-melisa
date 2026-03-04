@@ -26,17 +26,15 @@ const SectionContact = ({ data }: Props) => {
           <img src={url} alt={name} />
         </figure>
 
-        {/* Si hay info, se puede copiar */}
         {info && (
           <span
             className="text-sm cursor-pointer hover:text-gray-600"
             onClick={() => handleCopy(info)}
           >
-            {copied ? "¡Copiado!" : info}
+            {copied ? "¡Copiado al portapapeles!" : info}
           </span>
         )}
 
-        {/* Si hay link, abrir en nueva pestaña */}
         {link && (
           <a
             href={link}
@@ -44,7 +42,7 @@ const SectionContact = ({ data }: Props) => {
             rel="noopener noreferrer"
             className="text-sm text-text-orange "
           >
-            {name}
+            {link}
           </a>
         )}
       </div>
