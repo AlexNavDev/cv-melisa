@@ -11,13 +11,13 @@ const BlockStudies = ({ data }: Props) => {
 
   return (
     <div className="w-78  mb-5 flex items-center justify-between text-text-orange">
-      <div className="w-5 h-10 relative flex items-center">
+      <div className="w-5  h-10 relative flex items-center">
         <span className="w-1/2 h-10 absolute top-0 bottom-0 -z-10 bg-text-pink"></span>
-        <p className="text-3xl font-eras_itc z-10">{year}</p>
+        <p className="text-[19px] font-eras_itc z-10">{year}</p>
       </div>
       <div
         style={{ backgroundImage: `url(${img})` }}
-        className={`w-36 bg-cover ${sizeImgCourse}`}
+        className={`w-32 ml-4 bg-cover ${sizeImgCourse}`}
       ></div>
       <div className="w-28">
         {courses.map((course, index) => (

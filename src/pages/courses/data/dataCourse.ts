@@ -15,7 +15,7 @@ export interface DataCourses {
 
 const dataCoursesCurrent: DataCourses[] = [
   {
-    year: 20,
+    year: 2020,
     courses: [
       { title: "Photoshop", institution: "Coderhouse" },
       { title: "Illustrator", institution: "Coderhouse" },
@@ -23,7 +23,7 @@ const dataCoursesCurrent: DataCourses[] = [
     img: RAMIFICACION2,
   },
   {
-    year: 21,
+    year: 2021,
     courses: [
       { title: "Diseño UX/UI", institution: "Coderhouse" },
       { title: "Desarrollo Web", institution: "Coderhouse" },
@@ -32,7 +32,7 @@ const dataCoursesCurrent: DataCourses[] = [
     img: RAMIFICACION3,
   },
   {
-    year: 22,
+    year: 2022,
     courses: [
       { title: "JavaScript", institution: "Coderhouse" },
       {
@@ -44,7 +44,7 @@ const dataCoursesCurrent: DataCourses[] = [
     img: RAMIFICACION3,
   },
   {
-    year: 24,
+    year: 2024,
     courses: [
       { title: "Front-End Back-End", institution: "Codo a codo" },
       { title: "MySql", institution: "Pildoras informáticas" },
@@ -53,7 +53,7 @@ const dataCoursesCurrent: DataCourses[] = [
     img: RAMIFICACION3,
   },
   {
-    year: 26,
+    year: 2026,
     courses: [
       {
         title: "IA automatización de flujos de trabajo",
@@ -70,7 +70,7 @@ const dataCoursesCurrent: DataCourses[] = [
 
 const dataTwoCourses: DataCourses[] = [
   {
-    year: 20,
+    year: 2020,
     courses: [
       { title: "Photoshop", institution: "Coderhouse" },
       { title: "Illustrator", institution: "Coderhouse" },
@@ -81,7 +81,7 @@ const dataTwoCourses: DataCourses[] = [
 
 const dataThreeCourses: DataCourses[] = [
   {
-    year: 21,
+    year: 2021,
     courses: [
       { title: "Diseño UX/UI", institution: "Coderhouse" },
       { title: "Desarrollo Web", institution: "Coderhouse" },
@@ -90,7 +90,7 @@ const dataThreeCourses: DataCourses[] = [
     img: RAMIFICACION3,
   },
   {
-    year: 22,
+    year: 2022,
     courses: [
       { title: "JavaScript", institution: "Coderhouse" },
       {
@@ -102,7 +102,7 @@ const dataThreeCourses: DataCourses[] = [
     img: RAMIFICACION3,
   },
   {
-    year: 24,
+    year: 2024,
     courses: [
       { title: "Front-End Back-End", institution: "Codo a codo" },
       { title: "MySql", institution: "Pildoras informáticas" },
