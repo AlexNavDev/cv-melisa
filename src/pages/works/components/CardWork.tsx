@@ -41,7 +41,7 @@ const CardWork = ({ data, onClick }: Props) => {
         onClick={handleIsOpacity}
       ></div>
       <div
-        title={url.title}
+        title={namePage}
         className={`w-20 h-18 text-center  flex items-center justify-center absolute top-0 right-0 rounded-tr-2xl rounded-bl-4xl inset-shadow-sm ${styleCard}`}
       >
         <p className="text-xl font-bold">{role}</p>
