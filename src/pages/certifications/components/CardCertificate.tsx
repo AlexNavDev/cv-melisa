@@ -14,6 +14,7 @@ const CardCertificate = ({ data, onClick }: Props) => {
           <img src={url} alt={name} className="w-full h-20 mb-3 rounded-2xl" />
           <figcaption className="font-medium tracking-wide">{name}</figcaption>
           <div
+            title="Maximizar"
             onClick={() => onClick(id)}
             style={{
               backgroundImage: `url(${buttom})`,

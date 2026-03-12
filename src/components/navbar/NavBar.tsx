@@ -10,23 +10,23 @@ import ICONCONTACTO from "@assets/nav/Icon-Contacto.svg";
 
 const Navbar = () => {
   const tabs = [
-    { id: 1, name: "about-me", to: "/", url: ICONSOBREMI },
+    { id: 1, name: "Sobre mí", to: "/", url: ICONSOBREMI },
     {
       id: 2,
-      name: "skills-tec",
+      name: "Habilidades técnicas",
       to: "/habilidades_tecnicas",
       url: ICONHABILIDADESTEC,
     },
-    { id: 3, name: "course", to: "/cursos", url: ICONCURSOS },
-    { id: 4, name: "work", to: "/trabajos", url: ICONTRABAJOS },
+    { id: 3, name: "Estudios", to: "/estudios", url: ICONCURSOS },
+    { id: 4, name: "Trabajos realizados", to: "/trabajos", url: ICONTRABAJOS },
     {
       id: 5,
-      name: "skills-soft",
+      name: "Habilidades blandas",
       to: "/habilidades_blandas",
       url: ICONHABILIDADESBLA,
     },
-    { id: 6, name: "certificate", to: "/certificados", url: ICONCERTIFICADOS },
-    { id: 7, name: "contact", to: "/contacto", url: ICONCONTACTO },
+    { id: 6, name: "Certificados", to: "/certificados", url: ICONCERTIFICADOS },
+    { id: 7, name: "Encuentrame", to: "/contacto", url: ICONCONTACTO },
   ];
   return (
     <header className="w-82.5 h-8 m-auto">
@@ -41,6 +41,7 @@ const Navbar = () => {
                       <span className="absolute inset-0 bottom-0.5  bg-orange-400 [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)] translate-y-0.5" />
                     )}
                     <figure
+                      title={tab.name}
                       className={`
                          absolute
                          ${isActive ? "inset-0.5 bg-active translate-y-1" : "inset-0 bg-inactive"}

@@ -16,7 +16,11 @@ const Certifications = () => {
 
         <div className="w-full flex flex-wrap justify-between font-roboto text-xs">
           {dataCertificates.map((data) => (
-            <CardCertificate data={data} onClick={handleOpenModal} />
+            <CardCertificate
+              key={data.id}
+              data={data}
+              onClick={handleOpenModal}
+            />
           ))}
         </div>
       </Container>

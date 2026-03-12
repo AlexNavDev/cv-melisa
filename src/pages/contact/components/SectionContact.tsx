@@ -21,7 +21,7 @@ const SectionContact = ({ data }: Props) => {
 
   return (
     <div className="w-full h-10 font-roboto font-light animate-bounceInLeft">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3" title={name}>
         <figure className="w-10">
           <img src={url} alt={name} />
         </figure>

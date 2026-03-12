@@ -36,7 +36,10 @@ const SoftSkills = () => {
       <Title title="Habilidades Blandas" />
 
       <div className="h-96">
-        <div className="h-80 relative flex justify-center font-roboto">
+        <div
+          className="h-80 relative flex justify-center font-roboto"
+          title="Clickeame"
+        >
           {dataSoftSkills.map((card, i) => (
             <div
               key={i}

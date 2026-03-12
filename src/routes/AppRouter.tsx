@@ -17,7 +17,7 @@ const AppRouter = () => {
         <Route element={<Layout />}>
           <Route path="/" element={<AboutMe />} />
           <Route path="/habilidades_tecnicas" element={<TechnicalSkills />} />
-          <Route path="/cursos" element={<Courses />} />
+          <Route path="/estudios" element={<Courses />} />
           <Route path="/trabajos" element={<Works />} />
           <Route path="/habilidades_blandas" element={<SoftSkills />} />
           <Route path="/certificados" element={<Certifications />} />

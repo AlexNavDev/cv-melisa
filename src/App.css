@@ -26,7 +26,7 @@
   --font-roboto: "Roboto", sans-serif;
 
   /* Animación Título */
-  --animate-opacity-title: opacity-title 1s both 2s;
+  --animate-opacity-title: opacity-title 1s both 1s;
   @keyframes opacity-title {
     0% {
       opacity: 0;
