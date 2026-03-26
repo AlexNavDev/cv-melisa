@@ -29,22 +29,26 @@ const Navbar = () => {
     { id: 7, name: "contact", to: "/contacto", url: ICONCONTACTO },
   ];
   return (
-    <header className="w-82.5 h-8 m-auto">
+    <header className="w-82.5 h-8 md:h-18 m-auto md:w-196.5">
       <nav>
         <ul className="flex border border-t-0 border-r-0 border-l-0 border-text-orange">
           {tabs.map((tab) => (
-            <li key={`icon-${tab.id}`} className="relative w-12 h-8">
+            <li
+              key={`icon-${tab.id}`}
+              className="relative w-12 h-8 md:w-28.5 md:h-18"
+            >
               <NavLink to={tab.to}>
                 {({ isActive }) => (
                   <>
                     {isActive && (
-                      <span className="absolute inset-0 bottom-0.5  bg-orange-400 [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)] translate-y-0.5" />
+                      <span className="absolute inset-0 bottom-0.5 bg-orange-400 [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)] translate-y-0.5" />
                     )}
                     <figure
                       className={`
                          absolute
                          ${isActive ? "inset-0.5 bg-active translate-y-1" : "inset-0 bg-inactive"}
                          flex items-center
+                         md:pl-3
                          transition-all duration-200
                          [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)]
                        `}
@@ -52,7 +56,7 @@ const Navbar = () => {
                       <img
                         src={tab.url}
                         alt={`icon-${tab.name}`}
-                        className="w-6 ml-2"
+                        className="w-6 ml-2 md:w-13 md:h-12"
                       />
                     </figure>
                   </>
