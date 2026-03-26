@@ -20,7 +20,7 @@
   --color-blue-blur-bottom: #01092b;
   --color-text-gray: #e1e1e5;
   --color-card-bg: #d9d9d9;
-
+  --drop-shadow-icons-tec: 0 0 5px var(--color-text-pink);
   --font-brassiere: "Brassiere_Seethru", sans-serif;
   --font-eras_itc: "Eras_Itc", sans-serif;
   --font-roboto: "Roboto", sans-serif;

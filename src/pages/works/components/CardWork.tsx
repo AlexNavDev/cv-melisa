@@ -30,6 +30,7 @@ const CardWork = ({ data, onClick }: Props) => {
     setIsOpacity(!isOpacity);
   };
 
+
   return (
     <div className="w-58 h-68 m-auto mb-5 relative rounded-tr-2xl rounded-bl-4xl text-text-gray bg-card-bg overflow-hidden">
       <div

@@ -8,7 +8,10 @@ const Development = () => {
         <div className="h-72 text-[11px] flex flex-col justify-around">
           <div className="w-78 h-19 flex justify-evenly gap-1.5">
             {iconsDev.map(({ id, name, url }) => (
-              <figure className="w-14 h-20 flex flex-col items-center" key={id}>
+              <figure
+                className="w-14 h-20 flex flex-col items-center transition-all duration-300 md:hover:drop-shadow-icons-tec"
+                key={id}
+              >
                 <figcaption>{name}</figcaption>
                 <img
                   src={url}
@@ -20,7 +23,10 @@ const Development = () => {
           </div>
           <div className="w-78 h-20 flex justify-center gap-1.5">
             {iconsDev2.map(({ id, name, url }) => (
-              <figure className="w-14 h-20 flex flex-col items-center" key={id}>
+              <figure
+                className="w-14 h-20 flex flex-col items-center transition-all duration-300 md:hover:drop-shadow-icons-tec"
+                key={id}
+              >
                 <figcaption>{name}</figcaption>
                 <img
                   src={url}
@@ -33,7 +39,7 @@ const Development = () => {
           <div className="w-full h-20 flex justify-evenly gap-x-1.5">
             {iconsDev3.map(({ id, name, url }) => (
               <figure
-                className="w-14 h-20 flex flex-col items-center "
+                className="w-14 h-20 flex flex-col items-center transition-all duration-300 md:hover:drop-shadow-icons-tec"
                 key={`design-web-${id}`}
               >
                 <figcaption>{name}</figcaption>

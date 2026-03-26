@@ -10,7 +10,8 @@ interface Props {
 }
 
 const GithubButton = ({ github, onPress, isPressed }: Props) => {
-  const isGitDisabled = (github = "https://github.com/melocotonoro");
+  const isGitDisabled = github === "https://github.com/melocotonoro";
+
   return (
     <Link
       to={isGitDisabled ? "#" : github}

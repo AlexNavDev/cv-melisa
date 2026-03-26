@@ -4,9 +4,12 @@ const Design = () => {
   return (
     <div className="h-57 flex flex-col justify-between">
       <p className="text-sm">Diseño UX/UI</p>
-      <div className="h-46 flex flex-wrap justify-evenly gap-x-6 text-[11px]">
+      <div className="h-46 flex flex-wrap justify-evenly gap-x-6 text-[11px] ">
         {iconsDesign.map(({ id, name, url }) => (
-          <figure className="w-14 h-20 flex flex-col items-center " key={id}>
+          <figure
+            className="w-14 h-20 flex flex-col items-center transition-all duration-300 md:hover:drop-shadow-icons-tec"
+            key={id}
+          >
             <figcaption>{name}</figcaption>
             <img src={url} alt={`icon-${name}`} className="w-11.5 h-13.25" />
           </figure>

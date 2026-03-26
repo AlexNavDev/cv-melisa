@@ -24,14 +24,23 @@ const SocialLinks = ({ id, work, url, onClick }: Props) => {
   const [isPressed, setIsPressed] = useState(initialPressed);
 
   const handlePressed = (button: ButtonType, id?: string) => {
-    if (button === "youtube" && id) {
-      onClick(id);
-    }
+    if (isPressed[button]) return;
 
     setIsPressed((prev) => ({
       ...prev,
-      [button]: !prev[button],
+      [button]: true,
     }));
+
+    setTimeout(() => {
+      if (button === "youtube" && id) {
+        onClick(id);
+      }
+
+      setIsPressed((prev) => ({
+        ...prev,
+        [button]: false,
+      }));
+    }, 700);
   };
 
   return (
