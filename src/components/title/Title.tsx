@@ -7,13 +7,19 @@ interface Props {
 
 const Title = ({ title }: Props) => {
   return (
-    <div className="h-20 mb-6.25">
-      <h2 className="text-2xl text-text-pink animate-opacity-title">{title}</h2>
-      <figure>
-        <img src={IMGLINE} alt="linea" />
+    <div className="h-20 mb-6.25 md:mb-15">
+      <h2 className="text-2xl text-text-pink animate-opacity-title md:text-[32px]">
+        {title}
+      </h2>
+      <figure className="md:w-98 md:h-6 md:mb-1.5">
+        <img src={IMGLINE} alt="linea" className="md:w-full md:object-cover" />
       </figure>
-      <figure className="relative">
-        <img src={IMGSECTION} alt="división" className="z-50" />
+      <figure className="relative md:w-82 md:h-8">
+        <img
+          src={IMGSECTION}
+          alt="división"
+          className="z-50 md:w-full  md:object-cover"
+        />
         <div className="w-60 h-6 absolute top-0 -z-10 blur-md animate-flash bg-text-pink/20 "></div>
       </figure>
     </div>
