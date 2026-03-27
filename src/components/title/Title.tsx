@@ -7,7 +7,7 @@ interface Props {
 
 const Title = ({ title }: Props) => {
   return (
-    <div className="h-20 mb-6.25 md:mb-15">
+    <div className="h-20 mb-6.25 md:h-28">
       <h2 className="text-2xl text-text-pink animate-opacity-title md:text-[32px]">
         {title}
       </h2>

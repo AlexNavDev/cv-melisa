@@ -29,7 +29,7 @@ const Navbar = () => {
     { id: 7, name: "contact", to: "/contacto", url: ICONCONTACTO },
   ];
   return (
-    <header className="w-82.5 h-8 md:h-18 m-auto md:w-196.5">
+    <header className="w-82.5 h-8 m-auto md:w-196.5 md:h-18">
       <nav>
         <ul className="flex border border-t-0 border-r-0 border-l-0 border-text-orange">
           {tabs.map((tab) => (

@@ -2,8 +2,8 @@ import POBLUR from "@assets/figures/Polygon-blur.svg";
 
 const DesignInfo = () => {
   return (
-    <div className="h-64 flex flex-col justify-center animate-text-bounce-In-Left md:mb-20">
-      <div className="text-3xl font-eras_itc mb-3 text-text-orange md:text-5xl md:w-110 md:h-37 md:mt-20">
+    <div className="h-56 pt-12.5 flex flex-col justify-between animate-text-bounce-In-Left md:mb-20">
+      <div className="text-3xl font-eras_itc mb-3 text-text-orange md:text-5xl md:w-110 md:h-37">
         <p>Soy Diseñadora</p>
         <p>Ux/Ui</p>
       </div>
