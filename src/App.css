@@ -21,6 +21,10 @@
   --color-text-gray: #e1e1e5;
   --color-card-bg: #d9d9d9;
 
+  --drop-shadow-icons-title-tec: 0 0 4px var(--color-text-orange);
+  --drop-shadow-icons-tec: 0 0 3px var(--color-text-pink);
+  --drop-shadow-icons-soft: 0px 2px 3px var(--color-text-orange);
+
   --font-brassiere: "Brassiere_Seethru", sans-serif;
   --font-eras_itc: "Eras_Itc", sans-serif;
   --font-roboto: "Roboto", sans-serif;

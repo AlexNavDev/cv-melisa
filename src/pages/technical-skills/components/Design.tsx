@@ -7,16 +7,16 @@ const Design = () => {
       <div className="h-46 flex flex-wrap justify-evenly gap-x-6 text-[11px] md:w-3/4 md:gap-x-20 md:gap-y-7 md:mx-auto md:h-57">
         {iconsDesign.map(({ id, name, url }) => (
           <figure
-            className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26"
+            className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group"
             key={id}
           >
-            <figcaption className=" md:text-[16px] md:font-semibold">
+            <figcaption className="md:text-[16px] md:font-semibold group-hover:drop-shadow-icons-title-tec transition-all duration-75">
               {name}
             </figcaption>
             <img
               src={url}
               alt={`icon-${name}`}
-              className="w-11.5 h-13.25 md:w-16 md:h-18"
+              className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-icons-tec transition-all duration-75"
             />
           </figure>
         ))}

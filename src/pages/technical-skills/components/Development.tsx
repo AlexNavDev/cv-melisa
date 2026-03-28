@@ -9,16 +9,16 @@ const Development = () => {
           <div className="w-78 h-19 flex justify-evenly gap-1.5 md:w-11/12 md:h-26 md:mx-auto  md:mb-5">
             {iconsDev.map(({ id, name, url }) => (
               <figure
-                className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26"
+                className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group"
                 key={id}
               >
-                <figcaption className="md:text-[16px] md:font-semibold">
+                <figcaption className="md:text-[16px] md:font-semibold group-hover:drop-shadow-icons-title-tec transition-all duration-75">
                   {name}
                 </figcaption>
                 <img
                   src={url}
                   alt={`icon-${name}`}
-                  className="w-11.5 h-13.25 md:w-16 md:h-18"
+                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-icons-tec transition-all duration-75"
                 />
               </figure>
             ))}
@@ -26,14 +26,16 @@ const Development = () => {
           <div className="w-78 h-20 flex justify-center gap-1.5 md:w-11/12 md:h-26 md:mx-auto md:gap-x-15 md:mb-5">
             {iconsDev2.map(({ id, name, url }) => (
               <figure
-                className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26"
+                className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group"
                 key={id}
               >
-                <figcaption className="md:text-[16px]">{name}</figcaption>
+                <figcaption className="md:text-[16px] group-hover:drop-shadow-icons-title-tec transition-all duration-75">
+                  {name}
+                </figcaption>
                 <img
                   src={url}
                   alt={`icon-${name}`}
-                  className="w-11.5 h-13.25 md:w-16 md:h-18"
+                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-icons-tec transition-all duration-75"
                 />
               </figure>
             ))}
@@ -41,14 +43,16 @@ const Development = () => {
           <div className="w-full h-20 flex justify-evenly gap-x-1.5 md:w-11/12 md:h-26 md:mx-auto">
             {iconsDev3.map(({ id, name, url }) => (
               <figure
-                className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26"
+                className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group"
                 key={`design-web-${id}`}
               >
-                <figcaption className="md:text-[16px]">{name}</figcaption>
+                <figcaption className="md:text-[16px] group-hover:drop-shadow-icons-title-tec transition-all duration-75">
+                  {name}
+                </figcaption>
                 <img
                   src={url}
                   alt={`icon-${name}`}
-                  className="w-11.5 h-13.25 md:w-16 md:h-18"
+                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-icons-tec transition-all duration-75"
                 />
               </figure>
             ))}
