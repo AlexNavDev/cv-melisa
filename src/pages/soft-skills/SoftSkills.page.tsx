@@ -99,11 +99,11 @@ const SoftSkills = () => {
                   }}
                 >
                   {/* FRENTE */}
-                  <div className="w-full h-full absolute backface-hidden rounded-md bg-linear-to-br from-text-pink to-bg-pink/20 flex items-center justify-center group md:hover:border md:hover:border-text-orange md:hover:shadow-[0_0_10px_rgba(242,128,46,0.8)] transition-all duration-75">
+                  <div className="w-full h-full absolute backface-hidden rounded-md bg-linear-to-br from-text-pink to-bg-pink/20 flex items-center justify-center group md:hover:ring-2 md:hover:ring-text-orange transition-all duration-300">
                     <img
                       src={IMGCLICK}
                       alt="click"
-                      className="size-8 md:size-20 group-hover:drop-shadow-icons-soft transition-all duration-75"
+                      className="size-8 md:size-20 group-hover:drop-shadow-orange transition-all duration-300"
                     />
                   </div>
 

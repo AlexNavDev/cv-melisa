@@ -12,13 +12,13 @@ const Development = () => {
                 className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group"
                 key={id}
               >
-                <figcaption className="md:text-[16px] md:font-semibold group-hover:drop-shadow-icons-title-tec transition-all duration-75">
+                <figcaption className="md:text-[16px] md:font-semibold group-hover:drop-shadow-orange transition-all duration-300">
                   {name}
                 </figcaption>
                 <img
                   src={url}
                   alt={`icon-${name}`}
-                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-icons-tec transition-all duration-75"
+                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-pink transition-all duration-300"
                 />
               </figure>
             ))}
@@ -29,13 +29,13 @@ const Development = () => {
                 className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group"
                 key={id}
               >
-                <figcaption className="md:text-[16px] group-hover:drop-shadow-icons-title-tec transition-all duration-75">
+                <figcaption className="md:text-[16px] group-hover:drop-shadow-orange transition-all duration-300">
                   {name}
                 </figcaption>
                 <img
                   src={url}
                   alt={`icon-${name}`}
-                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-icons-tec transition-all duration-75"
+                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-pink transition-all duration-300"
                 />
               </figure>
             ))}
@@ -46,13 +46,13 @@ const Development = () => {
                 className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group"
                 key={`design-web-${id}`}
               >
-                <figcaption className="md:text-[16px] group-hover:drop-shadow-icons-title-tec transition-all duration-75">
+                <figcaption className="md:text-[16px] group-hover:drop-shadow-orange transition-all duration-300">
                   {name}
                 </figcaption>
                 <img
                   src={url}
                   alt={`icon-${name}`}
-                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-icons-tec transition-all duration-75"
+                  className="w-11.5 h-13.25 md:w-16 md:h-18 group-hover:drop-shadow-pink transition-all duration-300"
                 />
               </figure>
             ))}

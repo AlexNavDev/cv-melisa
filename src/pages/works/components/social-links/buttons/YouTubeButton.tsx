@@ -13,7 +13,7 @@ const YouTubeButton = ({ video, id, onPress, isPressed }: Props) => {
   return (
     <div
       className={`size-10 inline-flex items-center justify-center rounded-full border border-b-white
-  ${isYoutubeDisabled ? "opacity-50 pointer-events-none" : "cursor-pointer"}`}
+  ${isYoutubeDisabled ? "opacity-50 pointer-events-none" : "cursor-pointer transition duration-300  md:hover:ring-2 md:hover:ring-text-pink/70 "}`}
       title="YouTube"
       onClick={() => onPress("youtube", id)}
     >

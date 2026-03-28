@@ -16,7 +16,7 @@ const FigmaButton = ({ figma, onPress, isPressed }: Props) => {
       target="_blank"
       rel="noopener noreferrer"
       title="Figma"
-      className="size-10 inline-flex items-center justify-center rounded-full border border-b-white"
+      className="size-10 inline-flex items-center justify-center rounded-full border border-b-white transition duration-300 md:hover:ring-2 md:hover:ring-text-pink/70 "
       onClick={() => onPress("figma")}
     >
       <img

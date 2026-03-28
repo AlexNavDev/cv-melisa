@@ -19,7 +19,9 @@ const BehanceButton = ({ behance, onPress, isPressed }: Props) => {
       rel="noopener noreferrer"
       title="Behance"
       className={`size-10 inline-flex items-center justify-center rounded-full border border-b-white ${
-        isBehanceDisabled ? "pointer-events-none opacity-50" : ""
+        isBehanceDisabled
+          ? "pointer-events-none opacity-50"
+          : " transition duration-300  md:hover:ring-2 md:hover:ring-text-pink/70"
       }`}
       onClick={() => onPress("behance")}
     >
