@@ -1,6 +1,6 @@
-import type { DataWork } from "../data/dataWorks";
 import { useState } from "react";
-import SocialLinks from "./SocialLinks";
+import SocialLinks from "./social-links/SocialLinks";
+import type { DataWork } from "../work.types";
 
 interface Props {
   data: DataWork;
@@ -8,7 +8,7 @@ interface Props {
 }
 
 const CardWork = ({ data, onClick }: Props) => {
-  const { role, work, background, url, id } = data;
+  const { namePage, role, work, background, url, id } = data;
   const [isOpacity, setIsOpacity] = useState(false);
 
   const getStyleByRole = () => {
@@ -33,6 +33,7 @@ const CardWork = ({ data, onClick }: Props) => {
   return (
     <div className="w-58 h-68 m-auto mb-5 relative rounded-tr-2xl rounded-bl-4xl text-text-gray bg-card-bg overflow-hidden">
       <div
+        title={namePage}
         style={{
           backgroundImage: `url(${background})`,
         }}
@@ -40,6 +41,7 @@ const CardWork = ({ data, onClick }: Props) => {
         onClick={handleIsOpacity}
       ></div>
       <div
+        title={namePage}
         className={`w-20 h-18 text-center  flex items-center justify-center absolute top-0 right-0 rounded-tr-2xl rounded-bl-4xl inset-shadow-sm ${styleCard}`}
       >
         <p className="text-xl font-bold">{role}</p>

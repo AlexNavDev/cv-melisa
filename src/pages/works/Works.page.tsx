@@ -13,11 +13,12 @@ const Works = () => {
     <>
       <Container>
         <Title title="Trabajos Realizados" />
-        {dataWork.map((data) => (
-          <CardWork key={data.id} data={data} onClick={handleOpenModal} />
-        ))}
+        <div className="md:w-178 md:h-375 md:m-auto md:flex md:justify-evenly md:gap-6 md:flex-wrap">
+          {dataWork.map((data) => (
+            <CardWork key={data.id} data={data} onClick={handleOpenModal} />
+          ))}
+        </div>
       </Container>
-
       {isOpen && dataModal && (
         <ModalWork onClick={handleCloseModal} dataModal={dataModal} />
       )}
