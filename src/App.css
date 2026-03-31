@@ -21,12 +21,17 @@
   --color-text-gray: #e1e1e5;
   --color-card-bg: #d9d9d9;
 
+  --drop-shadow-orange: 0 0 4px rgba(242, 128, 46);
+  --drop-shadow-pink: 0 1px 3px rgba(206, 44, 117);
+  --text-shadow-pink: 2px 2px 3px rgba(206, 44, 117.69);
+  --text-shadow-orange: 2px 2px 3px rgba(242, 128, 46);
+
   --font-brassiere: "Brassiere_Seethru", sans-serif;
   --font-eras_itc: "Eras_Itc", sans-serif;
   --font-roboto: "Roboto", sans-serif;
 
   /* Animación Título */
-  --animate-opacity-title: opacity-title 1s both 2s;
+  --animate-opacity-title: opacity-title 1s both 1s;
   @keyframes opacity-title {
     0% {
       opacity: 0;
@@ -185,6 +190,32 @@
 
     100% {
       opacity: 0;
+    }
+  }
+
+  --animate-revealLeftToRight: revealLeftToRight 0.6s ease-out forwards;
+
+  @keyframes revealLeftToRight {
+    0% {
+      clip-path: inset(0 100% 0 0);
+      opacity: 0;
+    }
+    100% {
+      clip-path: inset(0 0 0 0);
+      opacity: 1;
+    }
+  }
+
+  --animate-fadeIcon: fadeIcon 0.7s ease-out forwards 1.5s;
+
+  @keyframes fadeIcon {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
     }
   }
 

@@ -15,19 +15,19 @@ export interface Contact {
 export const dataContact: Contact[] = [
   {
     id: "1",
-    name: "Celular",
+    name: "Contacto",
     url: ICONCEL,
     info: "+54 9 0351 153476526",
   },
   {
     id: "2",
-    name: "Email",
+    name: "Correo",
     url: ICONEMAIL,
     info: "melisaoro@gmail.com",
   },
   {
     id: "3",
-    name: "Linkedin",
+    name: "LinkedIn",
     url: ICONLINKEDIN,
     link: "https://www.linkedin.com/in/melisa-s-oro",
   },

@@ -10,13 +10,13 @@ import PO7 from "@assets/figures/Polygon-7.svg";
 const ProfileHero = () => {
   return (
     <div>
-      <figure className="w-full h-96  flex justify-center items-center relative">
+      <figure className="w-full h-96 flex justify-center items-center relative">
         <img
           src={MEL}
           alt="Foto de Melisa - Diseñadora UX/UI y Frontend Developer"
-          className="w-80 h-60 animate-photo-scale z-50"
+          className="w-80 h-60 animate-photo-scale z-50 md:w-100 md:h-75"
         />
-        <div className="w-80 h-80 md:w-96 md:h-96 absolute top-1/12 md:top-0 rounded-full">
+        <div className="w-80 h-80 absolute top-1/12 rounded-full md:w-96 md:h-96 md:top-0">
           <img
             src={PO1}
             alt="Elemento decorativo animado"

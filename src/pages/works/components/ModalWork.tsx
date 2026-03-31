@@ -1,7 +1,7 @@
 import Modal from "@/components/modal/Modal";
 import ICONPLAY from "@assets/modal/play.png";
 import { useState } from "react";
-import type { DataWork } from "../data/dataWorks";
+import type { DataWork } from "../work.types";
 
 interface Props {
   onClick: () => void;
@@ -13,15 +13,15 @@ const ModalWork = ({ onClick, dataModal }: Props) => {
 
   const { url } = dataModal;
   const [play, setPlay] = useState(false);
+
   return (
     <Modal onClick={onClick}>
-      <div className="w-full h-75 flex flex-col justify-evenly items-end">
-        <div className="aspect-video w-full rounded-xl overflow-hidden mb-6">
+      <div className="w-full">
+        <div className="aspect-video w-full rounded-xl overflow-hidden mb-6 md:w-10/12 md:h-75 md:m-auto">
           {play ? (
             <iframe
               className="w-full h-full"
               src={url.video}
-              title="pagina web data midas"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
@@ -37,10 +37,9 @@ const ModalWork = ({ onClick, dataModal }: Props) => {
         </div>
       </div>
 
-      <div className="w-11/12 h-44 m-auto ">
-        <h2 className="text-2xl font-bold mb-4 self-center text-text-pink">
-          {url.name}
-        </h2>
+      <div className="w-77 h-44 m-auto flex flex-col justify-evenly md:w-10/12 ">
+        <h2 className="text-[22px] font-bold text-text-pink">{url.title}</h2>
+        <p className="text-sm text-wrap text-text-gray">{url.summary}</p>
       </div>
     </Modal>
   );
