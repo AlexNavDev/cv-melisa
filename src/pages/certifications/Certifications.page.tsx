@@ -13,10 +13,15 @@ const Certifications = () => {
     <>
       <Container>
         <Title title="Certificados" />
-
-        <div className="w-full flex flex-wrap justify-between font-roboto text-xs">
-          {dataCertificates.map((data) => (
-            <CardCertificate data={data} onClick={handleOpenModal} />
+        <div className="grid grid-cols-2 gap-4 w-full font-roboto text-xs md:grid-cols-3">
+          {dataCertificates.map((data, index) => (
+            <CardCertificate
+              key={data.id}
+              data={data}
+              index={index}
+              total={dataCertificates.length}
+              onClick={handleOpenModal}
+            />
           ))}
         </div>
       </Container>

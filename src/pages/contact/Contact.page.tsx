@@ -9,7 +9,7 @@ const Contact = () => {
       <Container>
         <Title title="Encuentrame" />
 
-        <section className="h-60 mt-3 flex flex-col justify-between ">
+        <section className="h-60 mt-3 flex flex-col justify-between md:h-225 md:justify-start">
           {dataContact.map((data) => (
             <SectionContact key={data.id} data={data} />
           ))}
