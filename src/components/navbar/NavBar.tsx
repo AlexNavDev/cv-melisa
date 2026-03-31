@@ -10,23 +10,30 @@ import ICONCONTACTO from "@assets/nav/Icon-Contacto.svg";
 
 const Navbar = () => {
   const tabs = [
-    { id: 1, name: "about-me", to: "/", url: ICONSOBREMI },
+    { id: 1, title: "Sobre mí", to: "/", url: ICONSOBREMI },
     {
       id: 2,
-      name: "skills-tec",
+      title: "Habilidades técnicas",
+
       to: "/habilidades_tecnicas",
       url: ICONHABILIDADESTEC,
     },
-    { id: 3, name: "course", to: "/cursos", url: ICONCURSOS },
-    { id: 4, name: "work", to: "/trabajos", url: ICONTRABAJOS },
+    { id: 3, title: "Estudios", to: "/estudios", url: ICONCURSOS },
+    { id: 4, title: "Trabajos realizados", to: "/trabajos", url: ICONTRABAJOS },
     {
       id: 5,
-      name: "skills-soft",
+      title: "Habilidades blandas",
+
       to: "/habilidades_blandas",
       url: ICONHABILIDADESBLA,
     },
-    { id: 6, name: "certificate", to: "/certificados", url: ICONCERTIFICADOS },
-    { id: 7, name: "contact", to: "/contacto", url: ICONCONTACTO },
+    {
+      id: 6,
+      title: "Certificados",
+      to: "/certificados",
+      url: ICONCERTIFICADOS,
+    },
+    { id: 7, title: "Encuentrame", to: "/contacto", url: ICONCONTACTO },
   ];
   return (
     <header className="w-82.5 h-8 m-auto md:w-196.5 md:h-18">
@@ -36,6 +43,7 @@ const Navbar = () => {
             <li
               key={`icon-${tab.id}`}
               className="relative w-12 h-8 md:w-28.5 md:h-18"
+              title={tab.title}
             >
               <NavLink to={tab.to}>
                 {({ isActive }) => (
@@ -55,7 +63,7 @@ const Navbar = () => {
                     >
                       <img
                         src={tab.url}
-                        alt={`icon-${tab.name}`}
+                        alt={`icon-${tab.title}`}
                         className="w-6 ml-2 md:w-13 md:h-12"
                       />
                     </figure>

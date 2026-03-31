@@ -19,6 +19,7 @@ const CardCertificate = ({ data, onClick }: Props) => {
               backgroundImage: `url(${buttom})`,
             }}
             className="size-10 absolute bottom-1 right-1"
+            title="Maximizar"
           ></div>
         </figure>
       </div>

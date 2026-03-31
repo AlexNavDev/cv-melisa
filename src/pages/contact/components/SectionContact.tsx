@@ -21,7 +21,7 @@ const SectionContact = ({ data }: Props) => {
 
   return (
     <div className="w-full h-10 font-roboto font-light animate-bounceInLeft md:h-20 group">
-      <div className="flex items-center gap-3 ">
+      <div className="flex items-center gap-3" title={name}>
         <figure className="size-10 md:size-17.5 transition duration-300 group-hover:drop-shadow-pink">
           <img src={url} alt={name} />
         </figure>
@@ -29,7 +29,7 @@ const SectionContact = ({ data }: Props) => {
         {info && (
           <span
             className={`text-sm cursor-pointer md:text-[26px] transition duration-300 ${
-              !copied && "group-hover:text-shadow-pink"
+              !copied && "group-hover:text-shadow-orange"
             }`}
             onClick={() => handleCopy(info)}
           >
@@ -48,7 +48,7 @@ const SectionContact = ({ data }: Props) => {
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-text-orange md:text-[26px] transition duration-300 group-hover:text-shadow-pink"
+            className="text-sm text-text-orange md:text-[26px] transition duration-300 group-hover:text-shadow-orange"
           >
             {link}
           </a>

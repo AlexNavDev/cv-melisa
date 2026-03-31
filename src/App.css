@@ -24,13 +24,14 @@
   --drop-shadow-orange: 0 0 4px rgba(242, 128, 46);
   --drop-shadow-pink: 0 1px 3px rgba(206, 44, 117);
   --text-shadow-pink: 2px 2px 3px rgba(206, 44, 117.69);
+  --text-shadow-orange: 2px 2px 3px rgba(242, 128, 46);
 
   --font-brassiere: "Brassiere_Seethru", sans-serif;
   --font-eras_itc: "Eras_Itc", sans-serif;
   --font-roboto: "Roboto", sans-serif;
 
   /* Animación Título */
-  --animate-opacity-title: opacity-title 1s both 2s;
+  --animate-opacity-title: opacity-title 1s both 1s;
   @keyframes opacity-title {
     0% {
       opacity: 0;
