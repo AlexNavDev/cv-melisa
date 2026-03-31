@@ -4,7 +4,7 @@ import ProfileHero from "./components/ProfileHero";
 
 const AboutMe = () => {
   return (
-    <section className="w-82.5 mx-auto px-2 border-2 border-text-orange border-t-0 md:w-196.5 ">
+    <section className="w-82.5 mx-auto px-2 border-2 border-text-orange border-t-0 md:w-196.5">
       <DesignInfo />
       <ProfileHero />
       <DevelopInfo />

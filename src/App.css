@@ -193,6 +193,32 @@
     }
   }
 
+  --animate-revealLeftToRight: revealLeftToRight 0.6s ease-out forwards;
+
+  @keyframes revealLeftToRight {
+    0% {
+      clip-path: inset(0 100% 0 0);
+      opacity: 0;
+    }
+    100% {
+      clip-path: inset(0 0 0 0);
+      opacity: 1;
+    }
+  }
+
+  --animate-fadeIcon: fadeIcon 0.7s ease-out forwards 1.5s;
+
+  @keyframes fadeIcon {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
   /* Animación Contacto */
   --animate-bounceInLeft: bounceInLeft 1s 1s both;
 
