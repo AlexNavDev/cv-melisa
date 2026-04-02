@@ -25,10 +25,10 @@ const CardCertificate = ({ data, onClick, index, total }: Props) => {
 
   return (
     <div
-      className="w-36 h-34 md:w-[237px] md:h-[186px] animate-revealLeftToRight opacity-0"
+      className="w-36 h-34 md:w-59 md:h-46.5 animate-revealLeftToRight opacity-0"
       style={{ animationDelay: `${delay}s` }}
     >
-      <figure className="h-20 relative md:w-[230px] md:h-[123px]">
+      <figure className="h-20 relative md:w-57-5 md:h-30">
         <img
           src={url}
           alt={name}
@@ -40,7 +40,7 @@ const CardCertificate = ({ data, onClick, index, total }: Props) => {
         <div
           onClick={() => onClick(id)}
           style={{ backgroundImage: `url(${buttom})` }}
-          className="size-10 absolute bottom-1 right-1 opacity-0 transition-all duration-300 animate-fadeIcon md:hover:drop-shadow-orange"
+          className="size-10 absolute bottom-1 right-1 opacity-0 transition-all duration-300 animate-fadeIcon md:hover:drop-shadow-orange md:hover:ring md:hover:ring-text-orange md:rounded-full"
           title="Maximizar"
         />
       </figure>

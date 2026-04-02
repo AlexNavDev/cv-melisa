@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-
 import ICONSOBREMI from "@assets/nav/Icon-SobreMi.svg";
 import ICONHABILIDADESTEC from "@assets/nav/Icon-HabilidadesTecnicas.svg";
 import ICONCURSOS from "@assets/nav/Icon-Cursos.svg";
@@ -54,11 +53,14 @@ const Navbar = () => {
                     <figure
                       className={`
                          absolute
-                         ${isActive ? "inset-0.5 bg-active translate-y-1" : "inset-0 bg-inactive"}
+                        transition-all duration-300
+                         ${isActive ? "inset-0.5 bg-active translate-y-1" : "inset-0 bg-inactive md:hover:bg-purple-hover "}
                          flex items-center
                          md:pl-3
-                         transition-all duration-200
+                       
                          [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)]
+                        
+                         
                        `}
                     >
                       <img

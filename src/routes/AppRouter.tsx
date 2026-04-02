@@ -3,7 +3,7 @@ import Layout from "../layout/Layout";
 import {
   AboutMe,
   TechnicalSkills,
-  Courses,
+  Studies,
   Works,
   SoftSkills,
   Certifications,
@@ -17,7 +17,7 @@ const AppRouter = () => {
         <Route element={<Layout />}>
           <Route path="/" element={<AboutMe />} />
           <Route path="/habilidades_tecnicas" element={<TechnicalSkills />} />
-          <Route path="/estudios" element={<Courses />} />
+          <Route path="/estudios" element={<Studies />} />
           <Route path="/trabajos" element={<Works />} />
           <Route path="/habilidades_blandas" element={<SoftSkills />} />
           <Route path="/certificados" element={<Certifications />} />
