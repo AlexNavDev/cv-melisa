@@ -3,7 +3,7 @@ import BlockStudies from "./components/BlockStudies";
 import { dataCoursesCurrent } from "./data/dataCourse";
 import Container from "@/components/container/Container";
 
-const Courses = () => {
+const Studies = () => {
   return (
     <>
       <Container>
@@ -15,4 +15,4 @@ const Courses = () => {
     </>
   );
 };
-export default Courses;
+export default Studies;
