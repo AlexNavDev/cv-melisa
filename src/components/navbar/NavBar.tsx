@@ -35,13 +35,13 @@ const Navbar = () => {
     { id: 7, title: "Encuentrame", to: "/contacto", url: ICONCONTACTO },
   ];
   return (
-    <header className="w-82.5 h-8 m-auto md:w-196.5 md:h-18">
+    <header className="w-82.5 h-8 m-auto md:w-196.5 md:h-18 lg:w-310 lg:h-20">
       <nav>
         <ul className="flex border border-t-0 border-r-0 border-l-0 border-text-orange">
           {tabs.map((tab) => (
             <li
               key={`icon-${tab.id}`}
-              className="relative w-12 h-8 md:w-28.5 md:h-18"
+              className="relative w-12 h-8 md:w-28.5 md:h-18 lg:w-44.5 lg:h-20"
               title={tab.title}
             >
               <NavLink to={tab.to}>
@@ -66,7 +66,7 @@ const Navbar = () => {
                       <img
                         src={tab.url}
                         alt={`icon-${tab.title}`}
-                        className="w-6 ml-2 md:w-13 md:h-12"
+                        className="w-6 ml-2 md:w-13 md:h-12 lg:size-20 lg:ml-6"
                       />
                     </figure>
                   </>
