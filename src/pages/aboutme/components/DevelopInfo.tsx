@@ -10,7 +10,7 @@ const DevelopInfo = () => {
       </div>
       <div className="w-80 h-28 text-text-gray relative md:w-104 lg:w-full">
         <p className="px-4 font-roboto font-medium md:text-[22px] lg:text-[24px]">
-          Transmutar un diseño prototipado en un sitio web, integrado
+          Transmutar un diseño prototipado en un sitio web, integrando
           visibilidad, alcance, aspecto, contenido y funcionalidad para que el
           usuario interactúe.
         </p>
