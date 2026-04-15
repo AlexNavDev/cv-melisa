@@ -56,11 +56,7 @@ const Navbar = () => {
                         transition-all duration-300
                          ${isActive ? "inset-0.5 bg-active translate-y-1" : "inset-0 bg-inactive md:hover:bg-purple-hover "}
                          flex items-center
-                         md:pl-3
-                       
-                         [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)]
-                        
-                         
+                         md:pl-3 [clip-path:polygon(0_0,70%_0%,100%_100%,0%_100%)]
                        `}
                     >
                       <img
