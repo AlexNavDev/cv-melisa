@@ -37,7 +37,7 @@ const CardWork = ({ data, onClick }: Props) => {
         style={{
           backgroundImage: `url(${background})`,
         }}
-        className={`w-full h-68 rounded-tr-2xl rounded-bl-4xl duration-300 bg-contain bg-center ease-in transition-all ${isOpacity ? "opacity-100 scale-110" : "opacity-30 scale-100"} md:opacity-30 scale-100 md:hover:opacity-100 md:hover:scale-110 `}
+        className={`w-full h-68 rounded-tr-2xl rounded-bl-4xl duration-300 bg-contain bg-center ease-in transition-all ${isOpacity ? "opacity-100 scale-110" : "opacity-30 scale-100"} md:opacity-30 scale-100 md:hover:opacity-100 md:hover:scale-110 lg:h-40 lg:bg-cover lg:my-10 `}
         onClick={handleIsOpacity}
       ></div>
       <div
