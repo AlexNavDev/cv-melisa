@@ -41,7 +41,7 @@ const ModalWork = ({ onClick, dataModal }: Props) => {
               onClick={handlePressed}
               className="w-full h-full bg-black flex items-center justify-center cursor-pointer "
             >
-              <img src={isPressed ? ICONPLAYPRESS : ICONPLAY} alt="icono reproducir" />
+              <img src={isPressed ? ICONPLAYPRESS : ICONPLAY} className="size-16" alt="icono reproducir" />
             </div>
           )}
         </div>

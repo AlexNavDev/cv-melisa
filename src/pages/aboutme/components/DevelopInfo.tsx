@@ -17,7 +17,7 @@ const DevelopInfo = () => {
         <img
           src={POBLUR2}
           alt="Elemento decorativo blur"
-          className="absolute -bottom-3 right-0 md:-bottom-14 md:right-5 lg:w-20 lg:h-16"
+          className="absolute -bottom-3 right-0 md:-bottom-14 md:right-5 lg:w-20 lg:h-16 lg:right-0 lg:-bottom-20"
         />
       </div>
     </div>
