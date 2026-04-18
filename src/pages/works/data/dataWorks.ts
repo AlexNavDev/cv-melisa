@@ -18,7 +18,7 @@ const dataWork: DataWork[] = [
     background: IMGECOTECH,
     namePage: "EcoTech",
     url: {
-      github: "https://github.com/melocotonoro",
+      behance: "https://www.behance.net/",
       video: "https://www.youtube.com/embed/Z31Ui-VC2q8?si=o3LJ4_iFDVsh_c1F",
       figma:
         "https://www.figma.com/design/4EIb4XmGCEj3hPeCUPkfZc/E-commerce-eco-electr%C3%B3nica?node-id=129-77&t=dsaTEaq59EIdznuN-1 ",
@@ -83,7 +83,7 @@ const dataWork: DataWork[] = [
     url: {
       github: "https://github.com/melocotonoro/Wish-Him-Ecommerce",
       video: "https://www.youtube.com/embed/hW91dZfrhuU?si=oFp8j3OTXPslopnB",
-      behance: "https://behance.com",
+      behance: "https://www.behance.net/",
       title: "Diseño E-commerce Wish Him",
       summary:
         "Encontrar el regalo ideal para un hombre suele ser un desafío debido a la falta de opciones especializadas. Este e-commerce exclusivo resuelve esta fragmentación del mercado, ofreciendo una experiencia de compra enfocada 100% en el público masculino.",
@@ -98,7 +98,7 @@ const dataWork: DataWork[] = [
     url: {
       github: "https://github.com/melocotonoro/Data-Midas",
       video: "https://www.youtube.com/embed/5qshNQ6hMd4?si=g3B4Vr8W3q-vq8Ef",
-      behance: "https://behance.com",
+      behance: "https://www.behance.net/",
       title: "Diseño sitio web Data Midas",
       summary:
         "Diseño y desarrollo de una plataforma web B2B especializada en la comercialización de servicios de Data Science. El proyecto se ejecutó mediante un flujo de trabajo colaborativo, en conjunto con un desarrollador Frontend.",
@@ -113,7 +113,7 @@ const dataWork: DataWork[] = [
     url: {
       github: "https://github.com/melocotonoro/proyectoSaludable",
       video: "https://www.youtube.com/embed/YL4-RjGTBD0?si=WO7SciU8Lg12KJUj",
-      behance: "https://behance.com",
+      behance: "https://www.behance.net/",
       title: "Diseño sitio web Saludable",
       summary:
         "Plataforma interactiva de nutrición que combina planes de alimentación con herramientas de cálculo de calorías personalizadas. Desarrollada con JavaScript para una experiencia de usuario fluida.",
@@ -128,7 +128,7 @@ const dataWork: DataWork[] = [
     url: {
       github: "https://github.com/melocotonoro/LaKermessedellibro-git",
       video: "https://www.youtube.com/embed/Wv3SA6QRiok?si=tQ7JGX8dA3nWoarV",
-      behance: "https://behance.com",
+      behance: "https://www.behance.net/",
       title: "Diseño sitio web La Kermesse",
       summary:
         "Kermesse es un sitio interactivo diseñado para fomentar el intercambio de literatura. A través de un sistema de 'match' inteligente, los usuarios pueden concretar canjes directos o si el intercambio no es recíproco, el usuario acumula puntaje para otro canje.",
@@ -144,7 +144,7 @@ const dataWork: DataWork[] = [
     url: {
       github: "https://github.com/melocotonoro/TaTeTi",
       video: "https://www.youtube.com/embed/wHYMmZkNaiE?si=KBzogEJGGzzCJ4oH",
-      behance: "https://behance.com",
+      behance: "https://www.behance.net/",
       title: "Diseño de juego Ta Te Ti",
       summary:
         "Diseño y desarrollo de una versión interactiva del clásico Ta-Te-Ti. Este proyecto se centra en la gestión de turnos alternos entre dos jugadores, validación de condiciones de victoria en tiempo real y una interfaz  responsiva que asegura una experiencia fluida.",

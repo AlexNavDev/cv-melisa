@@ -20,7 +20,7 @@ const Title = ({ title }: Props) => {
           alt="división"
           className="z-50 md:w-full  md:object-cover"
         />
-        <div className="w-60 h-6 absolute top-0 -z-10 blur-md animate-flash bg-text-pink/20 "></div>
+        <div className="w-60 h-6 absolute top-0 -z-10 blur-md animate-flash bg-text-pink/27"></div>
       </figure>
     </div>
   );

@@ -68,7 +68,7 @@ export const dataCertificates: Certificates[] = [
   },
   {
     id: "certificates-9",
-    name: "Programación Inicial de cero a Java",
+    name: "Programación Inicial: De cero a Java",
     url: IMGPROGJAVA,
     buttom: IMGBUTTON,
   },

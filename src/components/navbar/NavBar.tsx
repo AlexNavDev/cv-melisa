@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <header className="w-82.5 h-8 m-auto md:w-196.5 md:h-18 lg:w-310 lg:h-20">
       <nav>
-        <ul className="flex border border-t-0 border-r-0 border-l-0 border-text-orange">
+        <ul className="flex border-2 border-t-0 border-r-0 border-l-0 border-text-orange">
           {tabs.map((tab) => (
             <li
               key={`icon-${tab.id}`}
