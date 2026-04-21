@@ -273,6 +273,7 @@
 }
 
 body {
+width: 100%;
   background: linear-gradient(
     180deg,
     var(--color-primary),
