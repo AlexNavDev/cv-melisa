@@ -13,7 +13,7 @@ const Works = () => {
     <>
       <Container>
         <Title title="Trabajos Realizados" />
-        <div className="md:w-178 md:h-375 md:m-auto md:flex md:justify-evenly md:gap-6 md:flex-wrap">
+        <div className="md:w-178 md:h-375 md:m-auto md:flex md:justify-evenly md:gap-6 md:flex-wrap lg:w-263.5 lg:grid lg:grid-cols-3">
           {dataWork.map((data) => (
             <CardWork key={data.id} data={data} onClick={handleOpenModal} />
           ))}

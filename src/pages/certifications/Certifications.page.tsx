@@ -13,7 +13,7 @@ const Certifications = () => {
     <>
       <Container>
         <Title title="Certificados" />
-        <div className="grid grid-cols-2 gap-4 w-full font-roboto text-xs md:grid-cols-3">
+        <div className="grid grid-cols-2 gap-4 w-full font-roboto text-xs md:grid-cols-3 lg:w-[1100px] lg:m-auto lg:h-147.5 lg:grid-cols-4 lg:place-items-center">
           {dataCertificates.map((data, index) => (
             <CardCertificate
               key={data.id}
