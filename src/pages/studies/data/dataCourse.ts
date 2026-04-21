@@ -46,9 +46,9 @@ const dataCoursesCurrent: DataCourses[] = [
   {
     year: 2024,
     courses: [
-      { title: "Front-End Back-End", institution: "Codo a codo" },
-      { title: "MySql", institution: "Pildoras informáticas" },
-      { title: "Java-MySql", institution: "Mujeres informáticas" },
+      { title: "Front-End Back-End", institution: "Codo a Codo" },
+      { title: "MySql", institution: "Pildoras Informáticas" },
+      { title: "Java-MySql", institution: "Mujeres Informáticas" },
     ],
     img: RAMIFICACION3,
   },
@@ -56,7 +56,7 @@ const dataCoursesCurrent: DataCourses[] = [
     year: 2026,
     courses: [
       {
-        title: "IA automatización de flujos de trabajo",
+        title: "IA y automatización de flujos de trabajo",
         institution: "Campus UNC",
       },
       {
@@ -104,7 +104,7 @@ const dataThreeCourses: DataCourses[] = [
   {
     year: 2024,
     courses: [
-      { title: "Front-End Back-End", institution: "Codo a codo" },
+      { title: "Front-End Back-End", institution: "Codo a Codo" },
       { title: "MySql", institution: "Pildoras informáticas" },
       { title: "Java-MySql", institution: "Mujeres informáticas" },
     ],

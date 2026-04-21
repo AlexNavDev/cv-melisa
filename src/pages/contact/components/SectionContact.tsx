@@ -20,7 +20,7 @@ const SectionContact = ({ data }: Props) => {
   };
 
   return (
-    <div className="w-full h-10 font-roboto font-light animate-bounceInLeft md:h-20 group">
+    <div className="w-full h-10 font-roboto font-light animate-bounceInLeft md:h-20 group lg:ml-5">
       <div className="flex items-center gap-3" title={name}>
         <figure className="size-10 md:size-17.5 transition duration-300 group-hover:drop-shadow-pink">
           <img src={url} alt={name} />

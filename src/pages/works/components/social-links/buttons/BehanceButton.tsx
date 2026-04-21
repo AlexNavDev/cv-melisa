@@ -10,7 +10,7 @@ interface Props {
 }
 
 const BehanceButton = ({ behance, onPress, isPressed }: Props) => {
-  const isBehanceDisabled = behance === "https://behance.com";
+  const isBehanceDisabled = behance === "https://www.behance.net/";
 
   return (
     <Link

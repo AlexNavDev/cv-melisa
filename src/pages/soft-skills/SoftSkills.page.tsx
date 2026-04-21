@@ -21,7 +21,7 @@ const SoftSkills = () => {
       } else if (window.innerWidth < 1024) {
         setRadius(230); // tablet
       } else {
-        setRadius(320); // desktop
+        setRadius(230); // desktop
       }
     };
 
@@ -61,6 +61,7 @@ const SoftSkills = () => {
             relative
             size-75         
             md:size-162.5
+            lg:size-182.5
           "
           style={{ transform: "rotate(-90deg)" }}
         >
@@ -90,6 +91,7 @@ const SoftSkills = () => {
                   className="
                     size-20
                     md:size-40.5
+                    lg:size-41.25
                   "
                   style={{
                     position: "relative",

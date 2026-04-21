@@ -15,7 +15,15 @@ const CardCertificate = ({ data, onClick, index, total }: Props) => {
 
   useEffect(() => {
     const update = () => {
-      const cols = window.innerWidth >= 768 ? 3 : 2;
+      let cols: 2 | 3 | 4;
+
+      if (window.innerWidth < 768) {
+        cols = 2; // móvil
+      } else if (window.innerWidth < 1024) {
+        cols = 3; // tablet
+      } else {
+        cols = 4; // desktop
+      }
       setDelay(getAnimationDelay(index, total, cols));
     };
     update();

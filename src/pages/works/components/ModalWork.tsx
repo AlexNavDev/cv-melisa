@@ -1,5 +1,6 @@
 import Modal from "@/components/modal/Modal";
 import ICONPLAY from "@assets/modal/play.png";
+import ICONPLAYPRESS from "@assets/modal/play-clicked.png";
 import { useState } from "react";
 import type { DataWork } from "../work.types";
 
@@ -13,6 +14,15 @@ const ModalWork = ({ onClick, dataModal }: Props) => {
 
   const { url } = dataModal;
   const [play, setPlay] = useState(false);
+
+  const [isPressed, setIsPressed] = useState(false);
+
+  const handlePressed=()=>{
+    setIsPressed((prev)=> !prev);
+    setTimeout(() => {
+      setPlay(true)
+    }, 300);
+  }
 
   return (
     <Modal onClick={onClick}>
@@ -28,10 +38,10 @@ const ModalWork = ({ onClick, dataModal }: Props) => {
             ></iframe>
           ) : (
             <div
-              onClick={() => setPlay(true)}
+              onClick={handlePressed}
               className="w-full h-full bg-black flex items-center justify-center cursor-pointer "
             >
-              <img src={ICONPLAY} alt="icono reproducir" />
+              <img src={isPressed ? ICONPLAYPRESS : ICONPLAY} className="size-16" alt="icono reproducir" />
             </div>
           )}
         </div>
