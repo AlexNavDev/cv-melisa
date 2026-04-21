@@ -24,7 +24,7 @@ import ICONJAVA from "@assets/soft-skills/Java.png";
 import ICONNODE from "@assets/soft-skills/NodeJs.png";
 import ICONMYSQL from "@assets/soft-skills/Mysql.png";
 
-interface Icons {
+export interface Icons {
   id: string;
   name: string;
   url: string;

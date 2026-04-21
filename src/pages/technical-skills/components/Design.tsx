@@ -10,7 +10,7 @@ const Design = () => {
             className="w-14 h-20 flex flex-col items-center md:w-20 md:h-26 group lg:w-20 lg:h-26.25"
             key={id}
           >
-            <figcaption className="md:text-[16px] md:font-semibold md:group-hover:drop-shadow-orange transition-all duration-300">
+            <figcaption className="md:text-[16px] md:group-hover:drop-shadow-orange transition-all duration-300">
               {name}
             </figcaption>
             <img
