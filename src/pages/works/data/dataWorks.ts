@@ -18,7 +18,7 @@ const dataWork: DataWork[] = [
     background: IMGECOTECH,
     namePage: "EcoTech",
     url: {
-      behance: "https://www.behance.net/",
+      behance: "https://www.behance.net/gallery/247845431/Caso-de-Estudio-No-Country-E-commerce-Eco-Tech",
       video: "https://www.youtube.com/embed/Z31Ui-VC2q8?si=o3LJ4_iFDVsh_c1F",
       figma:
         "https://www.figma.com/design/4EIb4XmGCEj3hPeCUPkfZc/E-commerce-eco-electr%C3%B3nica?node-id=129-77&t=dsaTEaq59EIdznuN-1 ",

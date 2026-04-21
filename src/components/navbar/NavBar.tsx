@@ -22,7 +22,6 @@ const Navbar = () => {
     {
       id: 5,
       title: "Habilidades blandas",
-
       to: "/habilidades_blandas",
       url: ICONHABILIDADESBLA,
     },

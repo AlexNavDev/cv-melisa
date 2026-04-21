@@ -1,4 +1,4 @@
-import POBLUR from "@assets/figures/Polygon-blur.svg";
+import POLIGONBLUR from "@assets/figures/Polygon-blur.svg";
 
 const DesignInfo = () => {
   return (
@@ -9,7 +9,7 @@ const DesignInfo = () => {
       </div>
       <div className="w-80 h-32 text-text-gray relative lg:w-115 lg:h-36.75">
         <img
-          src={POBLUR}
+          src={POLIGONBLUR}
           alt="Elemento decorativo blur"
           className="absolute left-0 lg:w-20 lg:h-16"
         />

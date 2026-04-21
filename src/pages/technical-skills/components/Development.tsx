@@ -7,6 +7,7 @@ const Development = () => {
       <div className="h-82 font-medium flex flex-col justify-between md:h-105 lg:h-78">
         <p className="text-sm font-medium md:text-[22px] lg:mb-6">Desarrollo Web</p>
         <div className="hidden lg:flex lg:w-225 lg:h-62.5 lg:m-auto lg:flex-wrap lg:gap-10 lg:justify-evenly">
+        
           {allIconsDev.map(({ id, name, url }) => (
               <figure
                 className="w-20 h-26 flex flex-col items-center group"
