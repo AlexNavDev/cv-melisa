@@ -12,5 +12,5 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "./src/assets"),
     },
   },
-  base:"https://AlexNavDev.github.io/cv-melisa/",
+  base:"/cv-melisa/",
 });
