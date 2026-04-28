@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {  HashRouter, Route, Routes } from "react-router-dom";
 import Layout from "../layout/Layout";
 import {
   AboutMe,
@@ -12,7 +12,7 @@ import {
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<AboutMe />} />
@@ -24,7 +24,7 @@ const AppRouter = () => {
           <Route path="/contacto" element={<Contact />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 export default AppRouter;
